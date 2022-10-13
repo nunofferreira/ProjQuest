@@ -1,0 +1,15 @@
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\ProjQuest.exe
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\ProjQuest.deps.json
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\ProjQuest.runtimeconfig.json
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\ProjQuest.dll
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\ProjQuest.pdb
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.csproj.AssemblyReference.cache
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.AssemblyInfoInputs.cache
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.AssemblyInfo.cs
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.csproj.CoreCompileInputs.cache
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.dll
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\refint\ProjQuest.dll
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.pdb
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.genruntimeconfig.cache
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ref\ProjQuest.dll
