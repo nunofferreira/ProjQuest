@@ -13,3 +13,5 @@ C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\refint\ProjQuest.dll
 C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.pdb
 C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.genruntimeconfig.cache
 C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ref\ProjQuest.dll
+C:\Users\nfsf8\source\repos\ProjQuest\bin\Debug\net6.0\Spectre.Console.dll
+C:\Users\nfsf8\source\repos\ProjQuest\obj\Debug\net6.0\ProjQuest.csproj.CopyComplete

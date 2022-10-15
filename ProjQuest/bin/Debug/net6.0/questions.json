@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 0,
+    "Assunto": null,
+    "Nivel": null,
+    "Tag": null,
+    "Nome": "Can we obtain the array index using foreach loop in C#?",
+    "Tipo": null,
+    "OnlyQuest": false,
+    "Resposta": "No"
+  },
+  {
+    "Id": 0,
+    "Assunto": null,
+    "Nivel": null,
+    "Tag": null,
+    "Nome": "Which is the correct for() statement to run an infinite loop?",
+    "Tipo": null,
+    "OnlyQuest": false,
+    "Resposta": "for(;;)"
+  },
+  {
+    "Id": 0,
+    "Assunto": null,
+    "Nivel": null,
+    "Tag": null,
+    "Nome": "What is the use of 'throw' statement in C#?",
+    "Tipo": null,
+    "OnlyQuest": false,
+    "Resposta": "to throw an exception manually during the execution of the program"
+  },
+  {
+    "Id": 0,
+    "Assunto": null,
+    "Nivel": null,
+    "Tag": null,
+    "Nome": "Which C# keyword is used to coming out from the loop?",
+    "Tipo": null,
+    "OnlyQuest": false,
+    "Resposta": "break"
+  }
+]
