@@ -1,4 +1,4 @@
-﻿namespace ProjQuest;
+﻿namespace ProjQuest.Entities;
 
 internal class Teacher
 {

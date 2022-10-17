@@ -1,0 +1,288 @@
+{
+  "ListaExames": [
+    {
+      "Name": "Teste 1",
+      "QuestionIds": [
+        13
+      ],
+      "AvailablePeriod": "2022-10-10T18:23:00"
+    },
+    {
+      "Name": "Teste 2",
+      "QuestionIds": [
+        13,
+        15
+      ],
+      "AvailablePeriod": "2022-10-10T18:23:00"
+    }
+  ],
+  "Alunos": [],
+  "Results": [],
+  "Questions": [
+    {
+      "Id": 1,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": "Advanced",
+      "Tag": "#foreach",
+      "Nome": "Can we obtain the array index using foreach loop in C#?",
+      "Tipo": "YesNo",
+      "OnlyTest": false,
+      "Resposta": [
+        1
+      ],
+      "Respostas": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "Id": 2,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": "Advanced",
+      "Tag": "#for",
+      "Nome": "Which is the correct for() statement to run an infinite loop?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "for(;;)",
+        "for(;;);",
+        "for(:;)",
+        "for(1;1;1)"
+      ]
+    },
+    {
+      "Id": 3,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": "Advanced",
+      "Tag": "#throw",
+      "Nome": "What is the use of throw statement in C#?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        1
+      ],
+      "Respostas": [
+        "to return from the calling functions to called function",
+        "to throw an exception manually during the execution of the program",
+        "to return from the switch statement",
+        "None of the above"
+      ]
+    },
+    {
+      "Id": 4,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": "Advanced",
+      "Tag": "#loops",
+      "Nome": "Which C# keyword is used to coming out from the loop?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "break",
+        "continue",
+        "Both A and B",
+        "None of the above"
+      ]
+    },
+    {
+      "Id": 5,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": "Advanced",
+      "Tag": "#goto",
+      "Nome": "Does C# support goto statement?",
+      "Tipo": "YesNo",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "Id": 6,
+      "Assunto": "Variables and Data Types",
+      "Nivel": "Intermediate",
+      "Tag": "#variable",
+      "Nome": "What is the correct syntax to declare a variable in C#?",
+      "Tipo": "CheckBox",
+      "OnlyTest": false,
+      "Resposta": [
+        0,
+        1
+      ],
+      "Respostas": [
+        "type variableName = value;",
+        "type variableName;",
+        "variableName as type = value;",
+        "value = variableName"
+      ]
+    },
+    {
+      "Id": 7,
+      "Assunto": "Variables and Data Types",
+      "Nivel": "Intermediate",
+      "Tag": "#DataType",
+      "Nome": "Which is not a valid C# data type?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        3
+      ],
+      "Respostas": [
+        "long",
+        "int",
+        "float",
+        "complex"
+      ]
+    },
+    {
+      "Id": 8,
+      "Assunto": "Variables and Data Types",
+      "Nivel": "Intermediate",
+      "Tag": "#Datatype",
+      "Nome": "Which is the correct order for implicit type conversion to convert a smaller to a larger type in C#?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "char -\u003E int -\u003E long -\u003E float -\u003E double",
+        "bool -\u003E char -\u003E int -\u003E long -\u003E float -\u003E double",
+        "char -\u003E int -\u003E float -\u003E long -\u003E double",
+        "bool -\u003E char -\u003E int -\u003E long -\u003E double -\u003E float"
+      ]
+    },
+    {
+      "Id": 9,
+      "Assunto": "Variables and Data Types",
+      "Nivel": "Intermediate",
+      "Tag": "#DataType",
+      "Nome": "Which data type is used to store text value in C#?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        2
+      ],
+      "Respostas": [
+        "text",
+        "txt",
+        "string",
+        "str"
+      ]
+    },
+    {
+      "Id": 10,
+      "Assunto": "Variables and Data Types",
+      "Nivel": "Intermediate",
+      "Tag": "#DataType",
+      "Nome": "Which is the correct C# statement to convert a float value to int explicitly?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "int_variable = (int) float_variable;",
+        "int_variable = float_variable;",
+        "int_variable = (int) (float_variable);",
+        "int_variable = int *float_variable);"
+      ]
+    },
+    {
+      "Id": 11,
+      "Assunto": "C# Basics",
+      "Nivel": "Beginner",
+      "Tag": "#CSharpBasics",
+      "Nome": "What is the extension of a C# language file?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        2
+      ],
+      "Respostas": [
+        ".c",
+        ".cpp",
+        ".cs",
+        ".csp"
+      ]
+    },
+    {
+      "Id": 12,
+      "Assunto": "C# Basics",
+      "Nivel": "Beginner",
+      "Tag": "#CSharpBasics",
+      "Nome": "Which symbols are used to mark the beginning and end of a code block?",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        1
+      ],
+      "Respostas": [
+        "\tSquare brackets []",
+        "\tCurly braces {}",
+        "\tRound brackets ()",
+        "\tDouble-quotes "
+      ]
+    },
+    {
+      "Id": 13,
+      "Assunto": "C# Basics",
+      "Nivel": "Beginner",
+      "Tag": "#CSharpBasics",
+      "Nome": "Is C# programming language a case-sensitive?",
+      "Tipo": "YesNo",
+      "OnlyTest": true,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "Id": 14,
+      "Assunto": "C# Basics",
+      "Nivel": "Beginner",
+      "Tag": "#CSharpBasics",
+      "Nome": "In C#, a single-line comment starts with ___.",
+      "Tipo": "DropDown",
+      "OnlyTest": false,
+      "Resposta": [
+        0
+      ],
+      "Respostas": [
+        "Two forward slashes (//)",
+        "Two backward slashes (\\)",
+        "A hash character (#)",
+        "A dollar character ($)"
+      ]
+    },
+    {
+      "Id": 15,
+      "Assunto": "C# Basics",
+      "Nivel": "Beginner",
+      "Tag": "#CSharpBasics",
+      "Nome": "Every C# statement is terminated by ___.",
+      "Tipo": "DropDown",
+      "OnlyTest": true,
+      "Resposta": [
+        1
+      ],
+      "Respostas": [
+        "Colon (:)",
+        "Semicolon (;)",
+        "Comma (,)",
+        "Dot (.)"
+      ]
+    }
+  ]
+}

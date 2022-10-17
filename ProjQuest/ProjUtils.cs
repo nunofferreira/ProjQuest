@@ -1,47 +1,76 @@
-﻿namespace ProjQuest
+﻿using System.Globalization;
+
+namespace ProjQuest;
+
+internal class ProjUtils
 {
-    internal class ProjUtils
+    public static void EnableUTF8Encoding()
     {
-        public static void EnableUTF8Encoding()
-        {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-        }
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+    }
 
-        public static double ReadDouble(string message)
-        {
-            Console.WriteLine(message);
-
-            string str = Console.ReadLine();
-
-            double result;
-            double.TryParse(str, out result);
-
-            return result;
-        }
-
-        public static int ReadInt(string message)
+    public static DateTime ReadDatetime(string message)
+    {
+        while (true)
         {
             Console.WriteLine(message);
 
             string str = Console.ReadLine();
 
-            int result;
-            int.TryParse(str, out result);
+            var isOk = DateTime.TryParseExact(str, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out var result);
+            //var valid = DateTime.TryParse(str, out var result);
 
-            return result;
+            if (isOk)
+                return result;
+            Console.Clear();
         }
+    }
 
-        public static int ReadChar(string message)
+    public static double ReadDouble(string message)
+    {
+        while (true)
         {
             Console.WriteLine(message);
 
             string str = Console.ReadLine();
 
-            char result;
-            char.TryParse(str, out result);
-
-            return result;
+            var isOk = double.TryParse(str, out var result);
+            
+            if (isOk)
+                return result;
+            Console.Clear();
         }
+    }
 
+    public static int ReadInt(string message)
+    {
+        while (true)
+        {
+            Console.WriteLine(message);
+
+            string str = Console.ReadLine();
+
+            var isOk = int.TryParse(str, out var result);
+
+            if (isOk)
+                return result;
+            Console.Clear();
+        }
+    }
+
+    public static int ReadChar(string message)
+    {
+        while (true)
+        {
+            Console.WriteLine(message);
+
+            string str = Console.ReadLine();
+
+            var isOk = char.TryParse(str, out var result);
+            
+            if (isOk)
+                return result;
+            Console.Clear();
+        }
     }
 }

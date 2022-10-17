@@ -1,0 +1,174 @@
+{
+  "ListaExames": [
+    {
+      "Name": "Teste 1",
+      "QuestionIds": [
+        13
+      ],
+      "AvailablePeriod": "2022-10-10T18:23:00"
+    },
+    {
+      "Name": "Teste 2",
+      "QuestionIds": [
+        13,
+        15
+      ],
+      "AvailablePeriod": "2022-10-10T18:23:00"
+    }
+  ],
+  "Alunos": [],
+  "Questionarios": [],
+  "Results": [],
+  "Questions": [
+    {
+      "Id": 1,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Can we obtain the array index using foreach loop in C#?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "No"
+    },
+    {
+      "Id": 2,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which is the correct for() statement to run an infinite loop?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "for(;;)"
+    },
+    {
+      "Id": 3,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "What is the use of \u0027throw\u0027 statement in C#?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "to throw an exception manually during the execution of the program"
+    },
+    {
+      "Id": 4,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which C# keyword is used to coming out from the loop?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "break"
+    },
+    {
+      "Id": 5,
+      "Assunto": "Conditional and Control Statements",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Does C# support goto statement?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "Yes"
+    },
+    {
+      "Id": 6,
+      "Assunto": "Variables and Data Types",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "What is the correct syntax to declare a variable in C#?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "D) Both A. and B"
+    },
+    {
+      "Id": 7,
+      "Assunto": "Variables and Data Types",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which is not a valid C# data type?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "complex"
+    },
+    {
+      "Id": 8,
+      "Assunto": "Variables and Data Types",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which is the correct order for implicit type conversion to convert a smaller to a larger type in C#?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "char -\u003E int -\u003E long -\u003E float -\u003E double"
+    },
+    {
+      "Id": 9,
+      "Assunto": "Variables and Data Types",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which data type is used to store text value in C#?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "string"
+    },
+    {
+      "Id": 10,
+      "Assunto": "Variables and Data Types",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which is the correct C# statement to convert a float value to int explicitly?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "A) int_variable = (int) float_variable;"
+    },
+    {
+      "Id": 11,
+      "Assunto": "C# Basics",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "What is the extension of a C# language file?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": ".cs"
+    },
+    {
+      "Id": 12,
+      "Assunto": "C# Basics",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Which symbols are used to mark the beginning and end of a code block?",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "Curly braces {}"
+    },
+    {
+      "Id": 13,
+      "Assunto": "C# Basics",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Is C# programming language a case-sensitive?",
+      "Tipo": null,
+      "OnlyTest": true,
+      "Resposta": "Yes"
+    },
+    {
+      "Id": 14,
+      "Assunto": "C# Basics",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "In C#, a single-line comment starts with ___.",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": "Two forward slashes (//)"
+    },
+    {
+      "Id": 15,
+      "Assunto": "C# Basics",
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "Every C# statement is terminated by ___.",
+      "Tipo": "null",
+      "OnlyTest": true,
+      "Resposta": "Semicolon (;)"
+    }
+  ]
+}

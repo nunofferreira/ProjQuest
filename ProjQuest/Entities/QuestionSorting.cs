@@ -1,4 +1,4 @@
-﻿namespace ProjQuest;
+﻿namespace ProjQuest.Entities;
 
 static class QuestionSorting
 {
@@ -20,7 +20,7 @@ static class QuestionSorting
     //    q.SingleOrDefault();
     //}
 
-    static List<Question> yesOrNo = new();
+    static List<Question> YesOrNo = new();
 
     //public static void YesOrNo()
     //{
@@ -29,7 +29,7 @@ static class QuestionSorting
 
     internal static List<Question> GetQuestion(int questionsNum)
     {
-        List<Question> questions = new ();
+        List<Question> questions = new();
 
         for (int i = 0; i < questionsNum; i++)
         {
@@ -40,7 +40,7 @@ static class QuestionSorting
             //questions[i] = new Question();
 
             int rnd = QuestionSorting.rnd.Next();
-            
+
             Question question = new Question();
             questions.Add(question);
         }

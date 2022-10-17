@@ -1,14 +1,26 @@
-﻿namespace ProjQuest;
+﻿using ProjQuest.Entities;
+namespace ProjQuest;
 
 public static class Menus
 {
+    private static DataBase dataBase;
     public static void Main()
     {
+        dataBase = DataBase.LoadData();
+
         bool showMenu = true;
         while (showMenu)
         {
             showMenu = FirstScreen();
         }
+
+        //bool showMenu1 = true;
+        //while (showMenu1)
+        //{
+        //    showMenu1 = MenuTeacher();
+        //}
+
+        dataBase.SaveData();
     }
 
     public static bool FirstScreen()
@@ -40,7 +52,7 @@ public static class Menus
         }
     }
 
-    public static void MenuTeacher()
+    public static bool MenuTeacher()
     {
         Console.Clear();
 
@@ -55,34 +67,47 @@ public static class Menus
 
         switch (Console.ReadLine())
         {
-            //case "1":
-            //    //CreateExam();
-            //   // return true;
+            case "1":
+                CreateExam();
+                return true;
             //case "2":
-            //    //CreateQuestion();
-            //    //return true;
-            //case "3":
-            //    //SeeExams();
-            //    //return true;
-            //case "4":
-            ////SeeGrades();
-            //default:
+            //    CreateQuestion();
             //    return true;
+            //case "3":
+            //    SeeExams();
+            //    return true;
+            //case "4":
+            //    SeeGrades();
+            //    return true;
+            default:
+                return true;
         }
 
-
-        //while (menu1)
+        //while (menu2)
         //{ }
     }
 
-    public static void MenuStudent()
+    public static bool MenuStudent()
     {
         Console.Clear();
+        Student aluno;
 
         Console.WriteLine("\n\tPor favor digite o seu nome: ");
         string nome = Console.ReadLine();
-        Console.WriteLine("\n\tOlá {0}", nome);
+        if (!dataBase.Alunos.Exists(p => p.Name.Equals(nome)))
+        {
+            aluno = new Student();
+            aluno.Name = nome;
+            aluno.Id = dataBase.Alunos.Max(p => p.Id) + 1;
 
+            dataBase.Alunos.Add(aluno);
+        }
+        else
+        {
+            aluno = dataBase.Alunos.FirstOrDefault(p => p.Name.Equals(nome));
+        }
+
+        Console.WriteLine("\n\tOlá {0}", nome);
 
         var menu_3 = @"
         O que pretende fazer?
@@ -94,45 +119,78 @@ public static class Menus
         Console.WriteLine(menu_3);
         switch (Console.ReadLine())
         {
-            //case "1":
-            //    //DoQuestionnaire();
-            //   // return true;
-            //case "2":
-            //    //DoExam();
-            //    //return true;
+            case "1":
+                DoQuestionnaire();
+                return true;
+            case "2":
+                if (aluno.HasApproval)
+                {
+
+                }
+                else
+                {
+                    Console.Write("Tens que fazer o questionário com aprovação.");
+                    return false;
+
+                }
+                //    //DoExam();
+                return true;
             //case "3":
             //    //SeeExamsDone();
             //    //return true;
-            //case "4":
-            //    //SeeQuestionnairesDone();
-            //      //return true
-            //default:
-            //    return true;
+            case "4":
+                //    //SeeQuestionnairesDone();
+                var resultadosAluno = dataBase.Results.Where(p => p.AlunoId == aluno.Id);
+                foreach (var res in resultadosAluno)
+                {
+                    foreach (var quest in res.Results)
+                    {
+                        Console.WriteLine($"{quest.QuestionId}  {quest.RightAnwser}");
+                    }
+
+                }
+
+                return true;
+            default:
+                return true;
         }
     }
 
-    private static void ShowMenu()
+    private static void CreateExam()
     {
-        var menu = @"
-1
+        Exam newExam = new Exam();
+        Console.WriteLine("Nome do exame");
+        newExam.Name = Console.ReadLine();
+
+        newExam.AvailablePeriod = ProjUtils.ReadDatetime("Data do Exame: dd/MM/yyyy hh:mm");
+        var allQuestions = dataBase.Questions.Where(p => p.OnlyTest);
+        foreach (var question in allQuestions)
+        {
+            Console.WriteLine($"{question.Assunto}{Environment.NewLine}{question.Nome}");
+            Console.WriteLine("Adicionar pergunta? s-Sim; n-Não");
+            var resposta = Console.ReadLine();
+            if (resposta.Equals("s"))
+            {
+                newExam.QuestionIds.Add(question.Id);
+            }
+        }
+        dataBase.ListaExames.Add(newExam);
+    }
+
+    private static void CreateQuestion()
+    {
+        Question newQuestion = new Question();
+        Console.WriteLine("Inserir a pergunta");
+        newQuestion.Nome = Console.ReadLine();
+
+    }
+
+    private static void DoQuestionnaire()
+    {
+        //Questionnaires quest = new Questionnaires();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-";
+        //dataBase
     }
 
 }
