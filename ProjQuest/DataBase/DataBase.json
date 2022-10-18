@@ -1,32 +1,29 @@
 {
-  "ListaExames": [
+  "ExamList": [
     {
-      "Name": "Teste 1",
+      "Name": "CSharpMod1",
       "QuestionIds": [
-        13
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "AvailablePeriod": "2022-10-10T18:23:00"
-    },
-    {
-      "Name": "Teste 2",
-      "QuestionIds": [
-        13,
-        15
-      ],
-      "AvailablePeriod": "2022-10-10T18:23:00"
+      "AvailablePeriod": "2022-10-19T17:00:00",
+      "StartingTime": "2022-10-19T15:00:00"
     }
   ],
-  "Alunos": [],
+  "Students": [],
   "Results": [],
   "Questions": [
     {
       "Id": 1,
-      "Assunto": "Conditional and Control Statements",
+      "Subject": "Conditional and Control Statements",
       "Nivel": "Advanced",
       "Tag": "#foreach",
       "Nome": "Can we obtain the array index using foreach loop in C#?",
       "Tipo": "YesNo",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         1
       ],
@@ -37,12 +34,12 @@
     },
     {
       "Id": 2,
-      "Assunto": "Conditional and Control Statements",
+      "Subject": "Conditional and Control Statements",
       "Nivel": "Advanced",
       "Tag": "#for",
       "Nome": "Which is the correct for() statement to run an infinite loop?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0
       ],
@@ -55,12 +52,12 @@
     },
     {
       "Id": 3,
-      "Assunto": "Conditional and Control Statements",
+      "Subject": "Conditional and Control Statements",
       "Nivel": "Advanced",
       "Tag": "#throw",
       "Nome": "What is the use of throw statement in C#?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         1
       ],
@@ -73,12 +70,12 @@
     },
     {
       "Id": 4,
-      "Assunto": "Conditional and Control Statements",
+      "Subject": "Conditional and Control Statements",
       "Nivel": "Advanced",
       "Tag": "#loops",
       "Nome": "Which C# keyword is used to coming out from the loop?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0
       ],
@@ -91,12 +88,12 @@
     },
     {
       "Id": 5,
-      "Assunto": "Conditional and Control Statements",
+      "Subject": "Conditional and Control Statements",
       "Nivel": "Advanced",
       "Tag": "#goto",
       "Nome": "Does C# support goto statement?",
       "Tipo": "YesNo",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0
       ],
@@ -107,12 +104,12 @@
     },
     {
       "Id": 6,
-      "Assunto": "Variables and Data Types",
+      "Subject": "Variables and Data Types",
       "Nivel": "Intermediate",
       "Tag": "#variable",
       "Nome": "What is the correct syntax to declare a variable in C#?",
       "Tipo": "CheckBox",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0,
         1
@@ -126,12 +123,12 @@
     },
     {
       "Id": 7,
-      "Assunto": "Variables and Data Types",
+      "Subject": "Variables and Data Types",
       "Nivel": "Intermediate",
       "Tag": "#DataType",
       "Nome": "Which is not a valid C# data type?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         3
       ],
@@ -144,12 +141,12 @@
     },
     {
       "Id": 8,
-      "Assunto": "Variables and Data Types",
+      "Subject": "Variables and Data Types",
       "Nivel": "Intermediate",
       "Tag": "#Datatype",
       "Nome": "Which is the correct order for implicit type conversion to convert a smaller to a larger type in C#?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0
       ],
@@ -162,12 +159,12 @@
     },
     {
       "Id": 9,
-      "Assunto": "Variables and Data Types",
+      "Subject": "Variables and Data Types",
       "Nivel": "Intermediate",
       "Tag": "#DataType",
       "Nome": "Which data type is used to store text value in C#?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         2
       ],
@@ -180,12 +177,12 @@
     },
     {
       "Id": 10,
-      "Assunto": "Variables and Data Types",
+      "Subject": "Variables and Data Types",
       "Nivel": "Intermediate",
       "Tag": "#DataType",
       "Nome": "Which is the correct C# statement to convert a float value to int explicitly?",
       "Tipo": "DropDown",
-      "OnlyTest": false,
+      "OnlyTest": true,
       "Resposta": [
         0
       ],
@@ -198,7 +195,7 @@
     },
     {
       "Id": 11,
-      "Assunto": "C# Basics",
+      "Subject": "C# Basics",
       "Nivel": "Beginner",
       "Tag": "#CSharpBasics",
       "Nome": "What is the extension of a C# language file?",
@@ -216,7 +213,7 @@
     },
     {
       "Id": 12,
-      "Assunto": "C# Basics",
+      "Subject": "C# Basics",
       "Nivel": "Beginner",
       "Tag": "#CSharpBasics",
       "Nome": "Which symbols are used to mark the beginning and end of a code block?",
@@ -234,12 +231,12 @@
     },
     {
       "Id": 13,
-      "Assunto": "C# Basics",
+      "Subject": "C# Basics",
       "Nivel": "Beginner",
       "Tag": "#CSharpBasics",
       "Nome": "Is C# programming language a case-sensitive?",
       "Tipo": "YesNo",
-      "OnlyTest": true,
+      "OnlyTest": false,
       "Resposta": [
         0
       ],
@@ -250,7 +247,7 @@
     },
     {
       "Id": 14,
-      "Assunto": "C# Basics",
+      "Subject": "C# Basics",
       "Nivel": "Beginner",
       "Tag": "#CSharpBasics",
       "Nome": "In C#, a single-line comment starts with ___.",
@@ -268,12 +265,12 @@
     },
     {
       "Id": 15,
-      "Assunto": "C# Basics",
+      "Subject": "C# Basics",
       "Nivel": "Beginner",
       "Tag": "#CSharpBasics",
       "Nome": "Every C# statement is terminated by ___.",
       "Tipo": "DropDown",
-      "OnlyTest": true,
+      "OnlyTest": false,
       "Resposta": [
         1
       ],
@@ -283,6 +280,18 @@
         "Comma (,)",
         "Dot (.)"
       ]
+    },
+    {
+      "Id": 0,
+      "Subject": null,
+      "Nivel": null,
+      "Tag": null,
+      "Nome": "tesettestes",
+      "Tipo": null,
+      "OnlyTest": false,
+      "Resposta": null,
+      "Respostas": null
     }
-  ]
+  ],
+  "Questionnaires": []
 }

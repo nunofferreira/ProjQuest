@@ -5,17 +5,19 @@ namespace ProjQuest;
 
 internal class DataBase
 {
-    public List<Exam> ListaExames { get; set; }
-    public List<Student> Alunos { get; set; }
+    public List<Exam> ExamList { get; set; }
+    public List<Student> Students { get; set; }
     public List<ExamResults> Results { get; set; }
     public List<Question> Questions { get; set; }
+    public List<Questionnaire> Questionnaires { get; set; }
 
     public DataBase()
     {
-        ListaExames = new List<Exam>();
-        Alunos = new List<Student>();
+        ExamList = new List<Exam>();
+        Students = new List<Student>();
         Results = new List<ExamResults>();
         Questions = new List<Question>();
+        Questionnaires = new List<Questionnaire>();
     }
 
     private static string GetPath()
@@ -30,21 +32,21 @@ internal class DataBase
     {
         DataBase data = new DataBase();
               
-        var jsonQuestions = File.ReadAllText(GetPath());
+        var jsonDataBase = File.ReadAllText(GetPath());
        
-        data = JsonSerializer.Deserialize<DataBase>(jsonQuestions);
+        data = JsonSerializer.Deserialize<DataBase>(jsonDataBase);
 
         return data;
     }
 
     internal void SaveData()
     {
-        var jsonQuestions = JsonSerializer.Serialize(this, new JsonSerializerOptions()
+        var jsonDataBase = JsonSerializer.Serialize(this, new JsonSerializerOptions()
         {
             WriteIndented = true
         });
 
-        File.WriteAllText(GetPath(), jsonQuestions);
+        File.WriteAllText(GetPath(), jsonDataBase);
     }
 }
 

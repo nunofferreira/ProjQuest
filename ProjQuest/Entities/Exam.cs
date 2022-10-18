@@ -5,6 +5,7 @@ internal class Exam
     public string Name { get; set; }
     public List<int> QuestionIds { get; set; }
     public DateTime AvailablePeriod { get; set; }
+    public DateTime StartingTime { get; set; }
 
     public Exam()
     {

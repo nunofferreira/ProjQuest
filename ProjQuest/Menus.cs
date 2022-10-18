@@ -14,26 +14,21 @@ public static class Menus
             showMenu = FirstScreen();
         }
 
-        //bool showMenu1 = true;
-        //while (showMenu1)
-        //{
-        //    showMenu1 = MenuTeacher();
-        //}
-
         dataBase.SaveData();
     }
 
     public static bool FirstScreen()
     {
         Console.Clear();
+        PrintLogo();
 
         var menu_1 = @"
-        **BEM VINDO AO QUEST**
+            **WELCOME TO QUEST**
      
-        Digite a sua opção por favor: 
+        Please select from the below: 
      
-        1) Professor
-        2) Aluno
+        1) Teacher
+        2) Student
         3) Exit";
         Console.WriteLine(menu_1);
 
@@ -56,13 +51,16 @@ public static class Menus
     {
         Console.Clear();
 
+
+
         var menu_2 = @"
         O que pretende fazer?
 
         1) Criar testes
         2) Criar questões
         3) Visualizar testes
-        3) Visualizar notas dos alunos";
+        4) Visualizar notas dos alunos
+        5) Exit";
         Console.WriteLine(menu_2);
 
         switch (Console.ReadLine())
@@ -70,21 +68,25 @@ public static class Menus
             case "1":
                 CreateExam();
                 return true;
-            //case "2":
-            //    CreateQuestion();
-            //    return true;
-            //case "3":
-            //    SeeExams();
-            //    return true;
-            //case "4":
-            //    SeeGrades();
-            //    return true;
+            case "2":
+                CreateQuestion();
+                return true;
+            case "3":
+                //    SeeExams();
+                return true;
+            case "4":
+                //    SeeGrades();
+                return true;
+            case "5":
+                return false;
             default:
                 return true;
         }
+        return true;
 
         //while (menu2)
         //{ }
+
     }
 
     public static bool MenuStudent()
@@ -94,17 +96,17 @@ public static class Menus
 
         Console.WriteLine("\n\tPor favor digite o seu nome: ");
         string nome = Console.ReadLine();
-        if (!dataBase.Alunos.Exists(p => p.Name.Equals(nome)))
+        if (!dataBase.Students.Exists(p => p.Name.Equals(nome)))
         {
-            aluno = new Student();
+            aluno = new Student(1, "", true);
             aluno.Name = nome;
-            aluno.Id = dataBase.Alunos.Max(p => p.Id) + 1;
+            aluno.Id = dataBase.Students.Max(p => p.Id) + 1;
 
-            dataBase.Alunos.Add(aluno);
+            dataBase.Students.Add(aluno);
         }
         else
         {
-            aluno = dataBase.Alunos.FirstOrDefault(p => p.Name.Equals(nome));
+            aluno = dataBase.Students.FirstOrDefault(p => p.Name.Equals(nome));
         }
 
         Console.WriteLine("\n\tOlá {0}", nome);
@@ -125,21 +127,19 @@ public static class Menus
             case "2":
                 if (aluno.HasApproval)
                 {
-
+                    DoExam();
                 }
                 else
                 {
                     Console.Write("Tens que fazer o questionário com aprovação.");
                     return false;
-
                 }
-                //    //DoExam();
                 return true;
             //case "3":
             //    //SeeExamsDone();
             //    //return true;
             case "4":
-                //    //SeeQuestionnairesDone();
+                //SeeQuestionnairesDone();
                 var resultadosAluno = dataBase.Results.Where(p => p.AlunoId == aluno.Id);
                 foreach (var res in resultadosAluno)
                 {
@@ -147,9 +147,7 @@ public static class Menus
                     {
                         Console.WriteLine($"{quest.QuestionId}  {quest.RightAnwser}");
                     }
-
                 }
-
                 return true;
             default:
                 return true;
@@ -159,29 +157,35 @@ public static class Menus
     private static void CreateExam()
     {
         Exam newExam = new Exam();
-        Console.WriteLine("Nome do exame");
+        Console.WriteLine("\tExam name:");
         newExam.Name = Console.ReadLine();
 
-        newExam.AvailablePeriod = ProjUtils.ReadDatetime("Data do Exame: dd/MM/yyyy hh:mm");
+        newExam.StartingTime = ProjUtils.ReadDatetime("Exam date: dd/MM/yyyy hh:mm");
+        newExam.AvailablePeriod = ProjUtils.ReadDatetime("Available until: dd/MM/yyyy hh:mm");
+
+        //implementar tambem o periodo do exame ou data de fim
+
         var allQuestions = dataBase.Questions.Where(p => p.OnlyTest);
         foreach (var question in allQuestions)
         {
-            Console.WriteLine($"{question.Assunto}{Environment.NewLine}{question.Nome}");
-            Console.WriteLine("Adicionar pergunta? s-Sim; n-Não");
+            Console.WriteLine($"{question.Subjet}{Environment.NewLine}{question.Name}");
+            Console.WriteLine("Adicionar esta pergunta? s-Sim; n-Não");
             var resposta = Console.ReadLine();
             if (resposta.Equals("s"))
             {
                 newExam.QuestionIds.Add(question.Id);
             }
         }
-        dataBase.ListaExames.Add(newExam);
+        dataBase.ExamList.Add(newExam);
     }
 
     private static void CreateQuestion()
     {
         Question newQuestion = new Question();
-        Console.WriteLine("Inserir a pergunta");
-        newQuestion.Nome = Console.ReadLine();
+        Console.WriteLine("\tInserir a pergunta");
+        newQuestion.Name = Console.ReadLine();
+
+        dataBase.Questions.Add(newQuestion);
 
     }
 
@@ -193,4 +197,20 @@ public static class Menus
         //dataBase
     }
 
+    private static void DoExam()
+    {
+
+    }
+
+    private static void PrintLogo()
+    {
+        Console.WriteLine(@"
+           ____                  _   
+          / __ \                | |  
+         | |  | |_   _  ___  ___| |_ 
+         | |  | | | | |/ _ \/ __| __|
+         | |__| | |_| |  __/\__ \ |_ 
+          \___\_\\__,_|\___||___/\__|
+                            ");
+    }
 }

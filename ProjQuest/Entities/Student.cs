@@ -6,4 +6,11 @@ internal class Student
     public int Id { get; set; }
     public string Name { get; set; }
     public bool HasApproval { get; set; }
+
+    public Student(int id, string name, bool hasApproval)
+    {
+        Id = id;
+        Name = name;
+        HasApproval = hasApproval;
+    }
 }

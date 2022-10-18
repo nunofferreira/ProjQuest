@@ -73,4 +73,12 @@ internal class ProjUtils
             Console.Clear();
         }
     }
+
+    public static int CreateGuid(string[] args)
+    {
+        Guid obj = Guid.NewGuid();
+        Console.WriteLine("New Guid is " + obj.ToString());
+        Console.ReadLine();
+        return -1;
+    }
 }
