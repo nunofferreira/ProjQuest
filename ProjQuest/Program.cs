@@ -1,13 +1,19 @@
 ﻿using ProjQuest;
 using ProjQuest.Entities;
-
-var students = new List<Student>();
-students.Add(new Student(1, "Nuno", true));
+using System.Text.Json;
 
 
 
+//var students = new List<Student>();
+//students.Add(new Student(1, "Nuno", true));
 
-ProjUtils.CreateGuid(args);
+//var jsonDataBase = JsonSerializer.Serialize(students, new JsonSerializerOptions()
+//{
+//    WriteIndented = true
+//});
+//File.WriteAllText("Database.json", jsonDataBase);
+
+//ProjUtils.CreateGuid(args);
 
 Menus.Main();
 

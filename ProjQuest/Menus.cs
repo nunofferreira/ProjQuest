@@ -54,19 +54,19 @@ public static class Menus
 
 
         var menu_2 = @"
-        O que pretende fazer?
+        What would you like to do?
 
-        1) Criar testes
-        2) Criar questões
-        3) Visualizar testes
-        4) Visualizar notas dos alunos
+        1) Create an Exam
+        2) Create Questions
+        3) View Exams
+        4) View Student Grades
         5) Exit";
         Console.WriteLine(menu_2);
 
         switch (Console.ReadLine())
         {
             case "1":
-                CreateExam();
+              Teacher.CreateExam();
                 return true;
             case "2":
                 CreateQuestion();
@@ -82,7 +82,7 @@ public static class Menus
             default:
                 return true;
         }
-        return true;
+        
 
         //while (menu2)
         //{ }
@@ -92,32 +92,34 @@ public static class Menus
     public static bool MenuStudent()
     {
         Console.Clear();
-        Student aluno;
+        Student student;
+        student = new Student(1, "", true);
+        Student.GreetAndCheck();
+        //Console.WriteLine("\n\tPor favor digite o seu name: ");
+        //string name = Console.ReadLine();
+        //if (!dataBase.Students.Exists(p => p.Name.Equals(name)))
+        //{
+        //    student = new Student(1, "", true);
+        //    student.Name = name;
+        //    student.Id = dataBase.Students.Max(p => p.Id) + 1;
 
-        Console.WriteLine("\n\tPor favor digite o seu nome: ");
-        string nome = Console.ReadLine();
-        if (!dataBase.Students.Exists(p => p.Name.Equals(nome)))
-        {
-            aluno = new Student(1, "", true);
-            aluno.Name = nome;
-            aluno.Id = dataBase.Students.Max(p => p.Id) + 1;
+        //    dataBase.Students.Add(student);
+        //}
+        //else
+        //{
+        //    student = dataBase.Students.FirstOrDefault(p => p.Name.Equals(name));
+        //}
 
-            dataBase.Students.Add(aluno);
-        }
-        else
-        {
-            aluno = dataBase.Students.FirstOrDefault(p => p.Name.Equals(nome));
-        }
-
-        Console.WriteLine("\n\tOlá {0}", nome);
-
+        //Console.WriteLine("\n\tOlá {0}", name);
+      
         var menu_3 = @"
-        O que pretende fazer?
+        What would you like to do?
 
-        1) Fazer questionário
-        2) Fazer teste
-        3) Visualizar questionários efetuados
-        3) Visualizar testes efetuados";
+        1) Questionnaire
+        2) Exam
+        3) View all completed questionnaires
+        4) View all completed tests
+        5) Exit";
         Console.WriteLine(menu_3);
         switch (Console.ReadLine())
         {
@@ -125,67 +127,125 @@ public static class Menus
                 DoQuestionnaire();
                 return true;
             case "2":
-                if (aluno.HasApproval)
+                if (student.HasApproval)
                 {
                     DoExam();
                 }
                 else
                 {
-                    Console.Write("Tens que fazer o questionário com aprovação.");
+                    Console.Write("You have to get approval in the questionnaire first");
                     return false;
                 }
                 return true;
-            //case "3":
-            //    //SeeExamsDone();
-            //    //return true;
+            case "3":
+            SeeExamsDone();
+            return true;
             case "4":
-                //SeeQuestionnairesDone();
-                var resultadosAluno = dataBase.Results.Where(p => p.AlunoId == aluno.Id);
-                foreach (var res in resultadosAluno)
-                {
-                    foreach (var quest in res.Results)
-                    {
-                        Console.WriteLine($"{quest.QuestionId}  {quest.RightAnwser}");
-                    }
-                }
+                SeeQuestionnairesDone();
+                
                 return true;
+            case "5":
+                return false;
             default:
                 return true;
         }
     }
 
-    private static void CreateExam()
+    
+    private static void SeeExamsDone()
     {
-        Exam newExam = new Exam();
-        Console.WriteLine("\tExam name:");
-        newExam.Name = Console.ReadLine();
-
-        newExam.StartingTime = ProjUtils.ReadDatetime("Exam date: dd/MM/yyyy hh:mm");
-        newExam.AvailablePeriod = ProjUtils.ReadDatetime("Available until: dd/MM/yyyy hh:mm");
-
-        //implementar tambem o periodo do exame ou data de fim
-
-        var allQuestions = dataBase.Questions.Where(p => p.OnlyTest);
-        foreach (var question in allQuestions)
+        Student student;
+        student = new Student(1, "", true);
+        var StudentResults = dataBase.Results.Where(s => s.StudentId == student.Id);
+        foreach (var res in StudentResults)
         {
-            Console.WriteLine($"{question.Subjet}{Environment.NewLine}{question.Name}");
-            Console.WriteLine("Adicionar esta pergunta? s-Sim; n-Não");
-            var resposta = Console.ReadLine();
-            if (resposta.Equals("s"))
+            foreach (var quest in res.Results)
             {
-                newExam.QuestionIds.Add(question.Id);
+                Console.WriteLine($"{quest.QuestionId}  {quest.RightAnwser}");
             }
         }
-        dataBase.ExamList.Add(newExam);
     }
+
+    private static void SeeQuestionnairesDone()
+    {
+        Student student;
+        student = new Student(1, "", true);
+        var StudentResults = dataBase.Results.Where(s => s.StudentId == student.Id);
+        foreach (var res in StudentResults)
+        {
+            foreach (var quest in res.Results)
+            {
+                Console.WriteLine($"{quest.QuestionId}  {quest.RightAnwser}");
+            }
+        }
+    }
+
+    //public static void CreateExam()
+    //{
+    //    Exam newExam = new Exam();
+    //    Console.WriteLine("\tExam name:");
+    //    newExam.Name = Console.ReadLine();
+
+    //    newExam.StartingTime = ProjUtils.ReadDatetime("Exam date: dd/MM/yyyy hh:mm");
+    //    newExam.AvailablePeriod = ProjUtils.ReadDatetime("Available until: dd/MM/yyyy hh:mm");
+
+    //    var allQuestions = dataBase.Questions.Where(q => q.OnlyTest);
+    //    foreach (var question in allQuestions)
+    //    {
+    //        Console.WriteLine($"{question.Subject}{Environment.NewLine}{question.Name}");
+    //        Console.WriteLine("Add this question? y-Yes; n-No");
+    //        var answer = Console.ReadLine();
+    //        if (answer.Equals("y"))
+    //        {
+    //            newExam.QuestionIds.Add(question.Id);
+    //        }
+    //    }
+    //    dataBase.ExamList.Add(newExam);
+    //}
 
     private static void CreateQuestion()
     {
-        Question newQuestion = new Question();
-        Console.WriteLine("\tInserir a pergunta");
-        newQuestion.Name = Console.ReadLine();
+        Question question;
+        question = new Question();
 
-        dataBase.Questions.Add(newQuestion);
+        Console.WriteLine("\tInsert question");
+        string name = Console.ReadLine();
+
+        Console.WriteLine("\tWhat is the subject? \n1)C# basics \n2)Variables and Data Types \n3)Conditional and Control Statements");
+        string subject = Console.ReadLine();
+
+        Console.WriteLine("\tWhat is the dificulty level? \n1)Beginner \n2)Intermediate \n3)Advanced");
+        string difLevel = Console.ReadLine();
+
+        Console.WriteLine("Insert #Tag");
+        string tag = Console.ReadLine();
+
+        Console.WriteLine("Type of question? \n1)CheckBox \n2)DropDown \n3)YesOrNo");
+        string type = Console.ReadLine();
+
+        Console.WriteLine("Question only to be used in tests? \nTrue \n2)False");
+        bool onlyTest = Convert.ToBoolean(Console.ReadLine());
+
+        Console.WriteLine("Write the correct answer");
+        string correctAnswer = Console.ReadLine();
+
+        Console.WriteLine("Write the possible answers");
+        string possAnswers = Console.ReadLine();
+
+        Console.WriteLine("");
+        question.Name = name;
+        question.Subject = subject;
+        question.DifLevel = difLevel;
+        question.Tag = tag;
+        question.Type = type;
+        question.OnlyTest = onlyTest;
+        //question.CorrectAnswer = correctAnswer;
+        //question.PossAnswers = possAnswers;
+
+
+        question.Id = dataBase.Questions.Max(q => q.Id) + 1;
+
+        dataBase.Questions.Add(question);
 
     }
 
