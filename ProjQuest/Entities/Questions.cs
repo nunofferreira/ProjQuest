@@ -1,6 +1,6 @@
 ﻿namespace ProjQuest.Entities;
 
-internal class Question
+public class Question
 {
 
     public int Id { get; set; }
@@ -19,6 +19,30 @@ internal class Question
 
     }
 
+    public void PrintQuestions(bool printCorrect)
+    {
+
+        for (int i = 0; i < this.PossAnswers.Count; i++)
+        {
+            string correctExpression = "";
+            var answer = this.PossAnswers[i];
+
+            if (printCorrect)
+            {
+                foreach (var correct in this.CorrectAnswer)
+                {
+                    if (correct == i + 1)
+                    {
+                        correctExpression = " (Correct)";
+                    }
+                }
+            }
+            Console.WriteLine($"{i+1}) {answer}{correctExpression}");
+            Console.WriteLine();
+        }
+
+        Console.WriteLine("-----------");
+    }
   
     //criar uma lista de respostas e usar um sistema de numeração para identificar a correta
 

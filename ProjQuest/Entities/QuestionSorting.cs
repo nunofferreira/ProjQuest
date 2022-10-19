@@ -27,7 +27,7 @@ static class QuestionSorting
 
     //}
    
-    internal static List<Question> GetQuestion(int questionsNum)
+    public static List<Question> GetQuestion(int questionsNum)
     {
         List<Question> questions = new();
 
@@ -46,4 +46,6 @@ static class QuestionSorting
         }
         return questions;
     }
+
+
 }

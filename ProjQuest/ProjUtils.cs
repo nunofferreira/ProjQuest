@@ -2,7 +2,7 @@
 
 namespace ProjQuest;
 
-internal class ProjUtils
+public class ProjUtils
 {
     public static void EnableUTF8Encoding()
     {
@@ -80,5 +80,17 @@ internal class ProjUtils
         Console.WriteLine("New Guid is " + obj.ToString());
         Console.ReadLine();
         return -1;
+    }
+
+    public static void PrintLogo()
+    {
+        Console.WriteLine(@"
+           ____                  _   
+          / __ \                | |  
+         | |  | |_   _  ___  ___| |_ 
+         | |  | | | | |/ _ \/ __| __|
+         | |__| | |_| |  __/\__ \ |_ 
+          \___\_\\__,_|\___||___/\__|
+                            ");
     }
 }

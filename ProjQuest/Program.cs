@@ -15,6 +15,8 @@ using System.Text.Json;
 
 //ProjUtils.CreateGuid(args);
 
-Menus.Main();
-
+Menus.StartProgram();
+//Console.WriteLine(" _______  _______ _________ _             \r\n(  ____ \\(       )\\__   __/( \\   |\\     /|\r\n| (    \\/| () () |   ) (   | (   ( \\   / )\r\n| (__    | || || |   | |   | |    \\ (_) / \r\n|  __)   | |(_)| |   | |   | |     \\   /  \r\n| (      | |   | |   | |   | |      ) (   \r\n| (____/\\| )   ( |___) (___| (____/\\| |   \r\n(_______/|/     \\|\\_______/(_______/\\_/   \r\n                                         ");
 Console.ReadLine();
+
+Console.WriteLine(QuestionSorting.GetQuestion(5)  ); 

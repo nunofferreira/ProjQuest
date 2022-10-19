@@ -1,12 +1,13 @@
 ﻿namespace ProjQuest.Entities;
 
-internal class Questionnaire
+public class Questionnaire
 {
-    public int AlunoId { get; set; }
-    public List<Question> Questoes { get; set; }
+    public int Id { get; set; }
+    public int StudentId { get; set; }
+    public List<int> QuestionIds { get; set; }
 
     public Questionnaire()
     {
-
+        QuestionIds = new List<int>();
     }
 }

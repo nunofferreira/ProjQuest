@@ -3,7 +3,7 @@ using ProjQuest.Entities;
 
 namespace ProjQuest;
 
-internal class DataBase
+public class DataBase
 {
     public List<Exam> ExamList { get; set; }
     public List<Student> Students { get; set; }
@@ -28,7 +28,7 @@ internal class DataBase
         return path;
     }
 
-    internal static DataBase LoadData()
+    public static DataBase LoadData()
     {
         DataBase data = new DataBase();
               
@@ -39,7 +39,7 @@ internal class DataBase
         return data;
     }
 
-    internal void SaveData()
+    public void SaveData()
     {
         var jsonDataBase = JsonSerializer.Serialize(this, new JsonSerializerOptions()
         {
