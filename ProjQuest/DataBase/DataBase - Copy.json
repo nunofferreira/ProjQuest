@@ -23,6 +23,11 @@
       "Id": 2,
       "Name": "Manuel",
       "HasApproval": false
+    },
+    {
+      "Id": 3,
+      "Name": "Emily",
+      "HasApproval": true
     }
   ],
   "Results": [],
@@ -34,7 +39,7 @@
       "Tag": "#foreach",
       "Name": "Can we obtain the array index using foreach loop in C#?",
       "Type": "YesNo",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 1 ],
       "PossAnswers": [ "Yes", "No" ]
     },
@@ -45,7 +50,7 @@
       "Tag": "#for",
       "Name": "Which is the correct for() statement to run an infinite loop?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [
         "for(;;)",
@@ -61,7 +66,7 @@
       "Tag": "#throw",
       "Name": "What is the use of throw statement in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 1 ],
       "PossAnswers": [
         "to return from the calling functions to called function",
@@ -77,7 +82,7 @@
       "Tag": "#loops",
       "Name": "Which C# keyword is used to coming out from the loop?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [
         "break",
@@ -93,7 +98,7 @@
       "Tag": "#goto",
       "Name": "Does C# support goto statement?",
       "Type": "YesNo",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [ "Yes", "No" ]
     },
@@ -104,7 +109,7 @@
       "Tag": "#variable",
       "Name": "What is the correct syntax to declare a variable in C#?",
       "Type": "CheckBox",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0, 1 ],
       "PossAnswers": [
         "type variableName = value;",
@@ -120,7 +125,7 @@
       "Tag": "#DataType",
       "Name": "Which is not a valid C# data type?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
         3
       ],
@@ -133,7 +138,7 @@
       "Tag": "#Datatype",
       "Name": "Which is the correct order for implicit type conversion to convert a smaller to a larger type in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [
         "char -\u003E int -\u003E long -\u003E float -\u003E double",
@@ -149,7 +154,7 @@
       "Tag": "#DataType",
       "Name": "Which data type is used to store text value in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 2 ],
       "PossAnswers": [ "text", "txt", "string", "str" ]
     },
@@ -160,7 +165,7 @@
       "Tag": "#DataType",
       "Name": "Which is the correct C# statement to convert a float value to int explicitly?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [
         "int_variable = (int) float_variable;",
@@ -176,7 +181,7 @@
       "Tag": "#CSharpBasics",
       "Name": "What is the extension of a C# language file?",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [ 2 ],
       "PossAnswers": [ ".c", ".cpp", ".cs", ".csp" ]
     },
@@ -187,7 +192,7 @@
       "Tag": "#CSharpBasics",
       "Name": "Which symbols are used to mark the beginning and end of a code block?",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [ 1 ],
       "PossAnswers": [
         "\tSquare brackets []",
@@ -203,7 +208,7 @@
       "Tag": "#CSharpBasics",
       "Name": "Is C# programming language a case-sensitive?",
       "Type": "YesNo",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [ "Yes", "No" ]
     },
@@ -214,7 +219,7 @@
       "Tag": "#CSharpBasics",
       "Name": "In C#, a single-line comment starts with ___.",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [ 0 ],
       "PossAnswers": [
         "Two forward slashes (//)",
@@ -230,7 +235,7 @@
       "Tag": "#CSharpBasics",
       "Name": "Every C# statement is terminated by ___.",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [ 1 ],
       "PossAnswers": [ "Colon (:)", "Semicolon (;)", "Comma (,)", "Dot (.)" ]
     }

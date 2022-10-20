@@ -18,8 +18,7 @@ public class ProjUtils
             string str = Console.ReadLine();
 
             var isOk = DateTime.TryParseExact(str, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out var result);
-            //var valid = DateTime.TryParse(str, out var result);
-
+           
             if (isOk)
                 return result;
             Console.Clear();
@@ -72,14 +71,6 @@ public class ProjUtils
                 return result;
             Console.Clear();
         }
-    }
-
-    public static int CreateGuid(string[] args)
-    {
-        Guid obj = Guid.NewGuid();
-        Console.WriteLine("New Guid is " + obj.ToString());
-        Console.ReadLine();
-        return -1;
     }
 
     public static void PrintLogo()

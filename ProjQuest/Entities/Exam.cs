@@ -2,6 +2,7 @@
 
 public class Exam
 {
+    public int Id { get; set; }
     public string Name { get; set; }
     public List<int> QuestionIds { get; set; }
     public DateTime AvailableUntil { get; set; }
@@ -11,12 +12,4 @@ public class Exam
     {
         QuestionIds = new List<int>();
     }
-    //Exam(string name, string questions, DateTime availablePeriod)
-    //{
-    //    Name = name;
-    //    Questions = questions;
-    //    AvailableUntil = availablePeriod;
-    //}
-
-
 }

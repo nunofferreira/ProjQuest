@@ -51,7 +51,6 @@ public static class Menus
     {
         while (true)
         {
-
             Console.Clear();
 
             var menu_2 = @"
@@ -79,9 +78,9 @@ public static class Menus
                     Teacher.PrintGrades(dataBase);
                     break;
                 case "5":
-                    return ;
+                    return;
                 default:
-                    return ;
+                    return;
             }
         }
     }
@@ -90,8 +89,6 @@ public static class Menus
     {
         while (true)
         {
-
-
             Console.Clear();
 
             Student student = Student.GreetAndCheck(dataBase);
@@ -101,9 +98,8 @@ public static class Menus
 
         1) Questionnaire
         2) Exam
-        3) View all completed questionnaires
-        4) View all completed tests
-        5) Exit";
+        3) View all completed Exams
+        4) Exit";
             Console.WriteLine(menu_3);
             switch (Console.ReadLine())
             {
@@ -113,7 +109,7 @@ public static class Menus
                 case "2":
                     if (student.HasApproval)
                     {
-                        Student.DoExam(dataBase);
+                        student.DoExam(dataBase);
                     }
                     else
                     {
@@ -121,68 +117,13 @@ public static class Menus
                     }
                     break;
                 case "3":
-                    Student.PrintExamsDone(dataBase);
+                    student.PrintExamsDone(dataBase);
                     break;
                 case "4":
-                    Student.PrintQuestionnairesDone(dataBase);
-
-                    break;
-                case "5":
-                    return ;
+                    return;
                 default:
-                    return ;
+                    return;
             }
         }
     }
-
-
-
-    //private static void DoQuestionnaire()
-    //{
-    //    Question quest = new Question();
-
-    //    DataBase dataBase = new DataBase();
-
-    //    var questionnaire = dataBase.Questions.Where(q => q.Id == quest.Id);
-
-    //    foreach (var ques in questionnaire)
-    //    {
-    //        foreach (var answer in ques.PossAnswers)
-    //        {
-    //            Console.WriteLine($"{quest.Name} {quest.PossAnswers}");
-    //        }
-    //    }
-    //}
-
-    //private static void DoExam()
-    //{
-
-    //}
-    //private static void PrintExamsDone()
-    //{
-    //    Student student;
-    //    student = new Student(1, "", true);
-    //    var StudentResults = dataBase.Results.Where(s => s.StudentId == student.Id);
-    //    foreach (var res in StudentResults)
-    //    {
-    //        foreach (var quest in res.Results)
-    //        {
-    //            Console.WriteLine($"{quest.QuestionId} {quest.RightAnswer}");
-    //        }
-    //    }
-    //}
-
-    //private static void PrintQuestionnairesDone()
-    //{
-    //    Student student;
-    //    student = new Student(1, "", true);
-    //    var StudentResults = dataBase.Results.Where(s => s.StudentId == student.Id);
-    //    foreach (var res in StudentResults)
-    //    {
-    //        foreach (var quest in res.Results)
-    //        {
-    //            Console.WriteLine($"{quest.QuestionId} {quest.RightAnswer}");
-    //        }
-    //    }
-    //}  
 }

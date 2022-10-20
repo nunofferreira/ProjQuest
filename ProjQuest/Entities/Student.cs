@@ -2,7 +2,6 @@
 
 public class Student
 {
-    //visualizar todos os testes e questionarios (só a nota) feitos por ele 
     public int Id { get; set; }
     public string Name { get; set; }
     public bool HasApproval { get; set; }
@@ -24,6 +23,8 @@ public class Student
         {
             student = new Student(1, "", true);
             student.Name = name;
+
+            //TODO: Check NULL
             student.Id = dataBase.Students.Max(p => p.Id) + 1;
 
             dataBase.Students.Add(student);
@@ -33,6 +34,7 @@ public class Student
             student = dataBase.Students.FirstOrDefault(p => p.Name.Equals(name));
         }
 
+        Console.Clear();
         Console.WriteLine("\n\tHello {0}!", name);
         return student;
     }
@@ -45,15 +47,14 @@ public class Student
         foreach (var questId in questionnaire.QuestionIds)
         {
             var quest = dataBase.Questions.FirstOrDefault(p => p.Id == questId);
-            quest.PrintQuestions(true);
+            quest.PrintQuestions(false);
 
             int answer = ProjUtils.ReadInt("Your answer is: ");
             bool correctAnswer = quest.CorrectAnswer.Any(p => p == answer);
-            if(correctAnswer)
+            if (correctAnswer)
             {
                 totalCorrect++;
             }
-
         }
         if (!this.HasApproval)
         {
@@ -66,11 +67,11 @@ public class Student
         Questionnaire questionnaire = new Questionnaire();
         var lastQuestionnaire = dataBase.Questionnaires.OrderByDescending(p => p.Id).FirstOrDefault();
 
-        questionnaire.Id = lastQuestionnaire == null ? 1: lastQuestionnaire.Id + 1;
+        questionnaire.Id = lastQuestionnaire == null ? 1 : lastQuestionnaire.Id + 1;
         questionnaire.StudentId = this.Id;
         Random rnd = new Random();
 
-        var possibleQuestions = dataBase.Questions.Where(p => p.OnlyTest == false).ToList();
+        var possibleQuestions = dataBase.Questions.Where(p => p.ExamOnly == false).ToList();
 
         for (int i = 0; i < 5; i++)
         {
@@ -81,40 +82,49 @@ public class Student
         }
 
         return questionnaire;
-
     }
 
     public void DoExam(DataBase dataBase)
     {
-        Exam exam = dataBase.ExamList.Where(p=>(p.StartingTime <= DateTime.Now && p.StartingTime.AddHours(1)> DateTime.Now)).FirstOrDefault();
+        Exam exam = dataBase.ExamList.Where(p => (p.StartingTime <= DateTime.Now && 
+        p.StartingTime.AddHours(1) > DateTime.Now)).FirstOrDefault();
 
-        if(exam== null)
+        if (exam == null)
         {
-            Console.WriteLine("There are no exams");
+            Console.Clear();
+            //Console.Beep();
+            Console.WriteLine("There are no exams!\nPlease check the requirements:\n\nOver 80% in a questionnaire?" +
+                "\nTime and date of Exam? \nHas the teacher made the exam available for you?");
+            Console.ReadLine();
             return;
         }
+
         ExamResults examResult = new ExamResults();
+        //var lastExamResult = dataBase.Results.OrderByDescending(p => p.ExamId).FirstOrDefault();
+
+        //examResult.ExamId = lastExamResult == null ? 1 : lastExamResult.ExamId + 1;
+
         examResult.StudentId = this.Id;
         examResult.ExamId = exam.Id;
 
         foreach (var questId in exam.QuestionIds)
         {
             var quest = dataBase.Questions.FirstOrDefault(p => p.Id == questId);
-            quest.PrintQuestions(true);
+            quest.PrintQuestions(false);
 
             int answer = ProjUtils.ReadInt("Your answer is: ");
             bool correctAnswer = quest.CorrectAnswer.Any(p => p == answer);
 
-            examResult.Results.Add(new (questId, correctAnswer));
+            //TODO: Check Null 
+            examResult.Results.Add(new(questId, correctAnswer));
         }
 
         dataBase.Results.Add(examResult);
-
     }
 
     public void PrintExamsDone(DataBase dataBase)
     {
-        
+
         var StudentResults = dataBase.Results.Where(s => s.StudentId == this.Id);
         foreach (var res in StudentResults)
         {
@@ -126,18 +136,4 @@ public class Student
             }
         }
     }
-
-    //public static void PrintQuestionnairesDone(DataBase dataBase)
-    //{
-    //    Student student;
-    //    student = new Student(1, "", true);
-    //    var StudentResults = dataBase.Results.Where(s => s.StudentId == student.Id);
-    //    foreach (var res in StudentResults)
-    //    {
-    //        foreach (var quest in res.Results)
-    //        {
-    //            Console.WriteLine($"{quest.QuestionId} {quest.RightAnswer}");
-    //        }
-    //    }
-    //}
 }

@@ -1,13 +1,11 @@
-﻿using System.ComponentModel;
-
-namespace ProjQuest.Entities;
+﻿namespace ProjQuest.Entities;
 
 public static class Teacher
 {
-    //criar testes e questoes
     public static void CreateExam(DataBase dataBase)
     {
         Exam newExam = new Exam();
+        //TODO: Check NULL
         newExam.Id = dataBase.ExamList.Max(p => p.Id) + 1;
 
         Console.WriteLine("\tExam name:");
@@ -16,7 +14,7 @@ public static class Teacher
         newExam.StartingTime = ProjUtils.ReadDatetime("Exam date: dd/MM/yyyy hh:mm");
         newExam.AvailableUntil = ProjUtils.ReadDatetime("Available until: dd/MM/yyyy hh:mm");
 
-        var allQuestions = dataBase.Questions.Where(q => q.OnlyTest);
+        var allQuestions = dataBase.Questions.Where(p => !p.ExamOnly);
         foreach (var question in allQuestions)
         {
             Console.WriteLine($"{question.Subject}{Environment.NewLine}{question.Name}");
@@ -32,7 +30,7 @@ public static class Teacher
 
     public static void CreateQuestion(DataBase dataBase)
     {
-        Question 
+        Question
         question = new Question();
 
         Console.WriteLine("\tInsert question");
@@ -50,8 +48,8 @@ public static class Teacher
         Console.WriteLine("Type of question? \n1)CheckBox \n2)DropDown \n3)YesOrNo");
         string type = Console.ReadLine();
 
-        Console.WriteLine("Question only to be used in tests? \nTrue \n2)False");
-        bool onlyTest = Convert.ToBoolean(Console.ReadLine());
+        Console.WriteLine("Question only to be used in exams? \n1)True \n2)False");
+        bool examOnly = Convert.ToBoolean(Convert.ToInt32(Console.ReadLine()));
 
         Console.WriteLine("Write the possible answers");
         int numberOfAwnsers = ProjUtils.ReadInt("How many?");
@@ -59,16 +57,16 @@ public static class Teacher
         List<string> answersList = new List<string>();
         for (int i = 0; i < numberOfAwnsers; i++)
         {
-            Console.WriteLine($"Write the answer number {i+1}");
+            Console.WriteLine($"Write the answer number {i + 1}");
             answersList.Add(Console.ReadLine());
 
         }
         string possAnswers = Console.ReadLine();
-        
+
         Console.WriteLine("Write the correct answer or answers, split by (,)");
         string correctAnswer = Console.ReadLine(); //"1,2"
         var correctAnswerSplited = correctAnswer.Split(",");
-        
+
         List<int> correctAnswerList = new List<int>();
         foreach (var item in correctAnswerSplited)
         {
@@ -81,17 +79,15 @@ public static class Teacher
         question.DifLevel = difLevel;
         question.Tag = tag;
         question.Type = type;
-        question.OnlyTest = onlyTest;
+        question.ExamOnly = examOnly;
         question.CorrectAnswer = correctAnswerList;
         question.PossAnswers = answersList;
 
-
+        //TODO: Check NULL
         question.Id = dataBase.Questions.Max(q => q.Id) + 1;
 
         dataBase.Questions.Add(question);
-
     }
-    //visualizar todos os testes e notas dos alunos 
 
     public static void PrintExams(DataBase dataBase)
     {
@@ -106,17 +102,15 @@ public static class Teacher
             foreach (var question in exam.QuestionIds)
             {
                 var quest = dataBase.Questions.FirstOrDefault(p => p.Id == question);
-                Console.WriteLine(quest.Name);
-                Console.WriteLine(quest.Subject);
+                Console.WriteLine($"Question details: \nSubject: {quest.Subject} \nDificulty Level: {quest.DifLevel} " +
+                    $"\nTag: {quest.Tag}\nType of question: {quest.Type}");
+
                 Console.WriteLine();
 
                 quest.PrintQuestions(true);
-
-                //Print details of question
             }
-            Console.WriteLine($"-------------------------");
+            Console.WriteLine($"-------------------------\n");
         }
-
         Console.ReadLine();
     }
 
@@ -124,23 +118,21 @@ public static class Teacher
     {
         Console.Clear();
 
-        foreach (var resultExam in dataBase.Results.OrderBy(p=>p.ExamId).ThenBy(p=>p.StudentId))
+        foreach (var resultExam in dataBase.Results.OrderBy(p => p.ExamId).ThenBy(p => p.StudentId))
         {
             var exam = dataBase.ExamList.FirstOrDefault(p => p.Id == resultExam.ExamId);
             var student = dataBase.Students.FirstOrDefault(p => p.Id == resultExam.StudentId);
 
             Console.WriteLine($"Exam name: {exam.Name}");
             Console.WriteLine($"Student name: {student.Name}");
+            int rightAnswers = resultExam.Results.Where(p => p.RightAnswer).Count();
+            int totalAnswers = resultExam.Results.Count();
 
-            foreach (var result in resultExam.Results)
-            {
-                var quest = dataBase.Questions.FirstOrDefault(p => p.Id == result.QuestionId);
-                Console.WriteLine($"{quest.Name} - {result.RightAnswer}");
-            }
+            Console.WriteLine($"Grade: {rightAnswers}/{totalAnswers}");
+            Console.WriteLine("");
 
             Console.WriteLine("____________________________");
             Console.WriteLine("");
-
         }
     }
 }

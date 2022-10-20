@@ -10,8 +10,8 @@
         4,
         5
       ],
-      "AvailableUntil": "2022-10-19T17:00:00",
-      "StartingTime": "2022-10-19T15:00:00"
+      "AvailableUntil": "2022-10-20T23:00:00",
+      "StartingTime": "2022-10-21T00:00:00"
     },
     {
       "Id": 2,
@@ -38,6 +38,38 @@
       ],
       "AvailableUntil": "2022-10-20T19:00:00",
       "StartingTime": "2022-10-20T17:00:00"
+    },
+    {
+      "Id": 4,
+      "Name": "hfdh",
+      "QuestionIds": [
+        15
+      ],
+      "AvailableUntil": "2022-10-20T23:00:00",
+      "StartingTime": "2022-10-20T22:00:00"
+    },
+    {
+      "Id": 5,
+      "Name": "saffds",
+      "QuestionIds": [
+        1
+      ],
+      "AvailableUntil": "2022-10-20T23:05:00",
+      "StartingTime": "2022-10-20T22:15:00"
+    },
+    {
+      "Id": 6,
+      "Name": "11111",
+      "QuestionIds": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "AvailableUntil": "2022-10-20T20:50:00",
+      "StartingTime": "2022-10-22T20:00:00"
     }
   ],
   "Students": [
@@ -62,18 +94,25 @@
       "HasApproval": true
     }
   ],
-  "Results": [],
+  "Results": [
+    {
+      "ExamId": 1,
+      "StudentId": 1,
+      "QuestionId": 1,
+      "RightAnswer": 1
+    }
+  ],
   "Questions": [
     {
       "Id": 1,
-      "Subject": null,
+      "Subject": "Conditional and Control Statements",
       "DifLevel": "Advanced",
       "Tag": "#foreach",
       "Name": "Can we obtain the array index using foreach loop in C#?",
       "Type": "YesNo",
-      "OnlyTest": true,
+      "ExamOnly": true,
       "CorrectAnswer": [
-        1
+        2
       ],
       "PossAnswers": [
         "Yes",
@@ -82,12 +121,12 @@
     },
     {
       "Id": 2,
-      "Subject": null,
+      "Subject": "Conditional and Control Statements",
       "DifLevel": "Advanced",
       "Tag": "#for",
       "Name": "Which is the correct for() statement to run an infinite loop?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
         1
       ],
@@ -100,14 +139,14 @@
     },
     {
       "Id": 3,
-      "Subject": null,
+      "Subject": "Conditional and Control Statements",
       "DifLevel": "Advanced",
       "Tag": "#throw",
       "Name": "What is the use of throw statement in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        1
+        2
       ],
       "PossAnswers": [
         "to return from the calling functions to called function",
@@ -118,12 +157,12 @@
     },
     {
       "Id": 4,
-      "Subject": null,
+      "Subject": "Conditional and Control Statements",
       "DifLevel": "Advanced",
       "Tag": "#loops",
       "Name": "Which C# keyword is used to coming out from the loop?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
         1
       ],
@@ -136,12 +175,12 @@
     },
     {
       "Id": 5,
-      "Subject": null,
+      "Subject": "Conditional and Control Statements",
       "DifLevel": "Advanced",
       "Tag": "#goto",
       "Name": "Does C# support goto statement?",
       "Type": "YesNo",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
         1
       ],
@@ -152,12 +191,12 @@
     },
     {
       "Id": 6,
-      "Subject": null,
+      "Subject": "Variables and Data Types",
       "DifLevel": "Intermediate",
       "Tag": "#variable",
       "Name": "What is the correct syntax to declare a variable in C#?",
       "Type": "CheckBox",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
         1,
         2
@@ -171,14 +210,14 @@
     },
     {
       "Id": 7,
-      "Subject": null,
+      "Subject": "Variables and Data Types",
       "DifLevel": "Intermediate",
       "Tag": "#DataType",
       "Name": "Which is not a valid C# data type?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        3
+        4
       ],
       "PossAnswers": [
         "long",
@@ -189,14 +228,14 @@
     },
     {
       "Id": 8,
-      "Subject": null,
+      "Subject": "Variables and Data Types",
       "DifLevel": "Intermediate",
       "Tag": "#Datatype",
       "Name": "Which is the correct order for implicit type conversion to convert a smaller to a larger type in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        0
+        1
       ],
       "PossAnswers": [
         "char -\u003E int -\u003E long -\u003E float -\u003E double",
@@ -207,14 +246,14 @@
     },
     {
       "Id": 9,
-      "Subject": null,
+      "Subject": "Variables and Data Types",
       "DifLevel": "Intermediate",
       "Tag": "#DataType",
       "Name": "Which data type is used to store text value in C#?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        2
+        3
       ],
       "PossAnswers": [
         "text",
@@ -225,14 +264,14 @@
     },
     {
       "Id": 10,
-      "Subject": null,
+      "Subject": "Variables and Data Types",
       "DifLevel": "Intermediate",
       "Tag": "#DataType",
       "Name": "Which is the correct C# statement to convert a float value to int explicitly?",
       "Type": "DropDown",
-      "OnlyTest": true,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        0
+        1
       ],
       "PossAnswers": [
         "int_variable = (int) float_variable;",
@@ -243,14 +282,14 @@
     },
     {
       "Id": 11,
-      "Subject": null,
+      "Subject": "C# Basics",
       "DifLevel": "Beginner",
       "Tag": "#CSharpBasics",
       "Name": "What is the extension of a C# language file?",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        2
+        3
       ],
       "PossAnswers": [
         ".c",
@@ -261,14 +300,14 @@
     },
     {
       "Id": 12,
-      "Subject": null,
+      "Subject": "C# Basics",
       "DifLevel": "Beginner",
       "Tag": "#CSharpBasics",
       "Name": "Which symbols are used to mark the beginning and end of a code block?",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        1
+        2
       ],
       "PossAnswers": [
         "\tSquare brackets []",
@@ -279,14 +318,14 @@
     },
     {
       "Id": 13,
-      "Subject": null,
+      "Subject": "C# Basics",
       "DifLevel": "Beginner",
       "Tag": "#CSharpBasics",
       "Name": "Is C# programming language a case-sensitive?",
       "Type": "YesNo",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        0
+        1
       ],
       "PossAnswers": [
         "Yes",
@@ -295,14 +334,14 @@
     },
     {
       "Id": 14,
-      "Subject": null,
+      "Subject": "C# Basics",
       "DifLevel": "Beginner",
       "Tag": "#CSharpBasics",
       "Name": "In C#, a single-line comment starts with ___.",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        0
+        1
       ],
       "PossAnswers": [
         "Two forward slashes (//)",
@@ -313,14 +352,14 @@
     },
     {
       "Id": 15,
-      "Subject": null,
+      "Subject": "C# Basics",
       "DifLevel": "Beginner",
       "Tag": "#CSharpBasics",
       "Name": "Every C# statement is terminated by ___.",
       "Type": "DropDown",
-      "OnlyTest": false,
+      "ExamOnly": false,
       "CorrectAnswer": [
-        1
+        2
       ],
       "PossAnswers": [
         "Colon (:)",
