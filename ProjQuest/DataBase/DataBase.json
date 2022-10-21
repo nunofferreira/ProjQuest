@@ -10,8 +10,8 @@
         4,
         5
       ],
-      "AvailableUntil": "2022-10-20T23:00:00",
-      "StartingTime": "2022-10-21T00:00:00"
+      "AvailableUntil": "2022-10-21T15:00:00",
+      "StartingTime": "2022-10-21T14:00:00"
     },
     {
       "Id": 2,
@@ -23,8 +23,8 @@
         8,
         9
       ],
-      "AvailableUntil": "2022-10-20T12:00:00",
-      "StartingTime": "2022-10-20T10:00:00"
+      "AvailableUntil": "2022-10-21T21:00:00",
+      "StartingTime": "2022-10-21T20:00:00"
     },
     {
       "Id": 3,
@@ -41,35 +41,16 @@
     },
     {
       "Id": 4,
-      "Name": "hfdh",
+      "Name": "Ultimate C#",
       "QuestionIds": [
-        15
-      ],
-      "AvailableUntil": "2022-10-20T23:00:00",
-      "StartingTime": "2022-10-20T22:00:00"
-    },
-    {
-      "Id": 5,
-      "Name": "saffds",
-      "QuestionIds": [
-        1
-      ],
-      "AvailableUntil": "2022-10-20T23:05:00",
-      "StartingTime": "2022-10-20T22:15:00"
-    },
-    {
-      "Id": 6,
-      "Name": "11111",
-      "QuestionIds": [
-        7,
+        2,
+        3,
+        6,
         8,
-        9,
-        10,
-        11,
-        12
+        14
       ],
-      "AvailableUntil": "2022-10-20T20:50:00",
-      "StartingTime": "2022-10-22T20:00:00"
+      "AvailableUntil": "2022-10-21T11:40:00",
+      "StartingTime": "2022-10-21T10:40:00"
     }
   ],
   "Students": [
@@ -98,8 +79,54 @@
     {
       "ExamId": 1,
       "StudentId": 1,
-      "QuestionId": 1,
-      "RightAnswer": 1
+      "Results": [
+        {
+          "QuestionId": 1,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 2,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 3,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 5,
+          "RightAnswer": true
+        }
+      ]
+    },
+    {
+      "ExamId": 2,
+      "StudentId": 3,
+      "Results": [
+        {
+          "QuestionId": 1,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 6,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 8,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 9,
+          "RightAnswer": true
+        }
+      ]
     }
   ],
   "Questions": [
@@ -366,6 +393,38 @@
         "Semicolon (;)",
         "Comma (,)",
         "Dot (.)"
+      ]
+    },
+    {
+      "Id": 16,
+      "Subject": "1",
+      "DifLevel": "1",
+      "Tag": "#ll",
+      "Name": "kjhgvghgk",
+      "Type": "1",
+      "ExamOnly": false,
+      "CorrectAnswer": [
+        1
+      ],
+      "PossAnswers": [
+        "23311",
+        "2135"
+      ]
+    },
+    {
+      "Id": 17,
+      "Subject": "1",
+      "DifLevel": "1",
+      "Tag": "##o",
+      "Name": "jghhj",
+      "Type": "1",
+      "ExamOnly": true,
+      "CorrectAnswer": [
+        1
+      ],
+      "PossAnswers": [
+        "112",
+        "1235"
       ]
     }
   ],

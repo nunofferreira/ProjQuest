@@ -57,7 +57,7 @@ public static class Menus
         What would you like to do?
 
         1) Create an Exam
-        2) Create Questions
+        2) Create a Question
         3) View Exams
         4) View Student Grades
         5) Exit";
@@ -113,7 +113,9 @@ public static class Menus
                     }
                     else
                     {
-                        Console.Write("You have to get approval in the questionnaire first");
+                        Console.Clear();
+                        Console.Write("You have to get approval in the questionnaire first!");
+                        Console.ReadLine();
                     }
                     break;
                 case "3":

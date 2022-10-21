@@ -4,9 +4,18 @@ public static class Teacher
 {
     public static void CreateExam(DataBase dataBase)
     {
-        Exam newExam = new Exam();
-        //TODO: Check NULL
-        newExam.Id = dataBase.ExamList.Max(p => p.Id) + 1;
+        Exam newExam = new();
+       
+        var lastExam = dataBase.ExamList.OrderByDescending(p => p.Id).FirstOrDefault();
+
+        if (lastExam == null)
+        {
+            newExam.Id = 1;
+        }
+        else
+        {
+            newExam.Id = lastExam.Id + 1;
+        }
 
         Console.WriteLine("\tExam name:");
         newExam.Name = Console.ReadLine();
@@ -18,8 +27,7 @@ public static class Teacher
         foreach (var question in allQuestions)
         {
             Console.WriteLine($"{question.Subject}{Environment.NewLine}{question.Name}");
-            Console.WriteLine("Add this question? y-Yes; n-No");
-            var answer = Console.ReadLine();
+            var answer = ProjUtils.ReadChar("Add this question? y-Yes; n-No");
             if (answer.Equals("y"))
             {
                 newExam.QuestionIds.Add(question.Id);
@@ -30,8 +38,9 @@ public static class Teacher
 
     public static void CreateQuestion(DataBase dataBase)
     {
-        Question
-        question = new Question();
+        Console.Clear();
+
+        Question question = new();
 
         Console.WriteLine("\tInsert question");
         string name = Console.ReadLine();
@@ -42,32 +51,31 @@ public static class Teacher
         Console.WriteLine("\tWhat is the dificulty level? \n1)Beginner \n2)Intermediate \n3)Advanced");
         string difLevel = Console.ReadLine();
 
-        Console.WriteLine("Insert #Tag");
+        Console.WriteLine("\tInsert #Tag");
         string tag = Console.ReadLine();
 
-        Console.WriteLine("Type of question? \n1)CheckBox \n2)DropDown \n3)YesOrNo");
+        Console.WriteLine("\tType of question? \n1)CheckBox \n2)DropDown \n3)YesOrNo");
         string type = Console.ReadLine();
 
-        Console.WriteLine("Question only to be used in exams? \n1)True \n2)False");
+        Console.WriteLine("\tQuestion only to be used in exams? \n1)True \n2)False");
         bool examOnly = Convert.ToBoolean(Convert.ToInt32(Console.ReadLine()));
 
-        Console.WriteLine("Write the possible answers");
-        int numberOfAwnsers = ProjUtils.ReadInt("How many?");
+        Console.WriteLine("\tWrite the possible answers");
+        int numberOfAnswers = ProjUtils.ReadInt("\t\nHow many?");
 
-        List<string> answersList = new List<string>();
-        for (int i = 0; i < numberOfAwnsers; i++)
+        List<string> answersList = new();
+        for (int i = 0; i < numberOfAnswers; i++)
         {
-            Console.WriteLine($"Write the answer number {i + 1}");
+            Console.WriteLine($"\tWrite the answer number {i + 1}");
             answersList.Add(Console.ReadLine());
-
         }
-        string possAnswers = Console.ReadLine();
+        //string possAnswers = Console.ReadLine();
 
-        Console.WriteLine("Write the correct answer or answers, split by (,)");
+        Console.WriteLine("Write the position of the correct answer or answers, split by a comma (,)");
         string correctAnswer = Console.ReadLine(); //"1,2"
         var correctAnswerSplited = correctAnswer.Split(",");
 
-        List<int> correctAnswerList = new List<int>();
+        List<int> correctAnswerList = new();
         foreach (var item in correctAnswerSplited)
         {
             correctAnswerList.Add(Convert.ToInt32(item));
@@ -83,8 +91,16 @@ public static class Teacher
         question.CorrectAnswer = correctAnswerList;
         question.PossAnswers = answersList;
 
-        //TODO: Check NULL
-        question.Id = dataBase.Questions.Max(q => q.Id) + 1;
+        //Check for NULL Exception
+        var lastQuestion = dataBase.Questions.OrderByDescending(p => p.Id).FirstOrDefault();
+        if (lastQuestion == null)
+        {
+            question.Id = 1;
+        }
+        else
+        {
+            question.Id = lastQuestion.Id + 1;
+        }
 
         dataBase.Questions.Add(question);
     }
@@ -126,7 +142,7 @@ public static class Teacher
             Console.WriteLine($"Exam name: {exam.Name}");
             Console.WriteLine($"Student name: {student.Name}");
             int rightAnswers = resultExam.Results.Where(p => p.RightAnswer).Count();
-            int totalAnswers = resultExam.Results.Count();
+            int totalAnswers = resultExam.Results.Count;
 
             Console.WriteLine($"Grade: {rightAnswers}/{totalAnswers}");
             Console.WriteLine("");
@@ -134,5 +150,6 @@ public static class Teacher
             Console.WriteLine("____________________________");
             Console.WriteLine("");
         }
+        Console.ReadLine();
     }
 }

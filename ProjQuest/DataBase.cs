@@ -30,7 +30,7 @@ public class DataBase
 
     public static DataBase LoadData()
     {
-        DataBase data = new DataBase();
+        DataBase data = new();
               
         var jsonDataBase = File.ReadAllText(GetPath());
        

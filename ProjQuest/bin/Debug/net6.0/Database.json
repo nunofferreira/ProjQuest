@@ -1,7 +1,7 @@
 [
   {
-    "Id": 1,
-    "Name": "Nuno",
-    "HasApproval": true
+    "ExamId": 0,
+    "StudentId": 0,
+    "Results": null
   }
 ]
