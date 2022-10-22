@@ -6,3 +6,5 @@ ProjUtils.EnableUTF8Encoding();
 
 
 Menus.StartProgram();
+
+

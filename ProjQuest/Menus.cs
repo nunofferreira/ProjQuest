@@ -99,7 +99,8 @@ public static class Menus
         1) Questionnaire
         2) Exam
         3) View all completed Exams
-        4) Exit";
+        4) View Questionnaire scores
+        5) Exit";
             Console.WriteLine(menu_3);
             switch (Console.ReadLine())
             {
@@ -122,6 +123,9 @@ public static class Menus
                     student.PrintExamsDone(dataBase);
                     break;
                 case "4":
+                    student.PrintQuestScore(dataBase);
+                    break;
+                case "5":
                     return;
                 default:
                     return;

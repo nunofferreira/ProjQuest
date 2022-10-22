@@ -4,10 +4,12 @@ public static class Teacher
 {
     public static void CreateExam(DataBase dataBase)
     {
-        Exam newExam = new();
-       
-        var lastExam = dataBase.ExamList.OrderByDescending(p => p.Id).FirstOrDefault();
+        Console.Clear();
 
+        Exam newExam = new();
+
+        //Check for NULL Exception
+        var lastExam = dataBase.ExamList.OrderByDescending(p => p.Id).FirstOrDefault();
         if (lastExam == null)
         {
             newExam.Id = 1;
@@ -17,22 +19,39 @@ public static class Teacher
             newExam.Id = lastExam.Id + 1;
         }
 
-        Console.WriteLine("\tExam name:");
+        Console.WriteLine("\t\nExam's name:");
         newExam.Name = Console.ReadLine();
 
-        newExam.StartingTime = ProjUtils.ReadDatetime("Exam date: dd/MM/yyyy hh:mm");
-        newExam.AvailableUntil = ProjUtils.ReadDatetime("Available until: dd/MM/yyyy hh:mm");
+        newExam.StartingTime = ProjUtils.ReadDatetime("\t\nExam date: dd/MM/yyyy hh:mm");
+        newExam.AvailableUntil = ProjUtils.ReadDatetime("\t\nAvailable until: dd/MM/yyyy hh:mm");
+
+        Console.WriteLine("\nPlease choose the students that will take part in the exam:");
+        var allStudents = dataBase.Students.Where(p => p.HasApproval);
+        foreach (var student in allStudents)
+        {
+            Console.WriteLine($"\n{student.Name}");
+            var reply = ProjUtils.ReadChar("Add this student? y-Yes; n-No");
+            if (reply.Equals(121))
+            {
+                newExam.StudentIds.Add(student.Id);
+            }
+        }
+        Console.Clear();
 
         var allQuestions = dataBase.Questions.Where(p => !p.ExamOnly);
         foreach (var question in allQuestions)
         {
-            Console.WriteLine($"{question.Subject}{Environment.NewLine}{question.Name}");
+            Console.WriteLine($"{question.Subject}\n{question.Name}");
             var answer = ProjUtils.ReadChar("Add this question? y-Yes; n-No");
-            if (answer.Equals("y"))
+            if (answer.Equals(121))
             {
                 newExam.QuestionIds.Add(question.Id);
             }
         }
+        Console.Clear();
+        Console.WriteLine($"The Exam {newExam.Name} is ready!\nPlease exit the program to save.");
+        Console.ReadLine();
+
         dataBase.ExamList.Add(newExam);
     }
 
@@ -69,7 +88,6 @@ public static class Teacher
             Console.WriteLine($"\tWrite the answer number {i + 1}");
             answersList.Add(Console.ReadLine());
         }
-        //string possAnswers = Console.ReadLine();
 
         Console.WriteLine("Write the position of the correct answer or answers, split by a comma (,)");
         string correctAnswer = Console.ReadLine(); //"1,2"

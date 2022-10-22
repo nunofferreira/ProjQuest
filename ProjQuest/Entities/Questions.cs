@@ -15,7 +15,6 @@ public class Question
     public Question()
     {
 
-
     }
 
     public void PrintQuestions(bool printCorrect)

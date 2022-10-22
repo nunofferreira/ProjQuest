@@ -11,7 +11,8 @@
         5
       ],
       "AvailableUntil": "2022-10-21T15:00:00",
-      "StartingTime": "2022-10-21T14:00:00"
+      "StartingTime": "2022-10-21T14:00:00",
+      "StudentIds": []
     },
     {
       "Id": 2,
@@ -24,7 +25,8 @@
         9
       ],
       "AvailableUntil": "2022-10-21T21:00:00",
-      "StartingTime": "2022-10-21T20:00:00"
+      "StartingTime": "2022-10-21T20:00:00",
+      "StudentIds": []
     },
     {
       "Id": 3,
@@ -37,7 +39,8 @@
         10
       ],
       "AvailableUntil": "2022-10-20T19:00:00",
-      "StartingTime": "2022-10-20T17:00:00"
+      "StartingTime": "2022-10-20T17:00:00",
+      "StudentIds": []
     },
     {
       "Id": 4,
@@ -50,7 +53,130 @@
         14
       ],
       "AvailableUntil": "2022-10-21T11:40:00",
-      "StartingTime": "2022-10-21T10:40:00"
+      "StartingTime": "2022-10-21T10:40:00",
+      "StudentIds": []
+    },
+    {
+      "Id": 5,
+      "Name": "C# Strings",
+      "QuestionIds": [],
+      "AvailableUntil": "2022-10-23T17:10:00",
+      "StartingTime": "2022-10-23T15:10:00",
+      "StudentIds": []
+    },
+    {
+      "Id": 6,
+      "Name": "Conditional and Control Statements",
+      "QuestionIds": [],
+      "AvailableUntil": "2022-10-24T22:00:00",
+      "StartingTime": "2022-10-24T19:00:00",
+      "StudentIds": []
+    },
+    {
+      "Id": 7,
+      "Name": "C# Arrays",
+      "QuestionIds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "AvailableUntil": "2022-10-23T23:00:00",
+      "StartingTime": "2022-10-23T19:00:00",
+      "StudentIds": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "sdfdsag",
+      "QuestionIds": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "AvailableUntil": "2022-10-23T17:00:00",
+      "StartingTime": "2022-10-23T15:00:00",
+      "StudentIds": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "fdgsgfhdg",
+      "QuestionIds": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "AvailableUntil": "2022-10-23T19:00:00",
+      "StartingTime": "2022-10-23T17:00:00",
+      "StudentIds": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "sdafasaf",
+      "QuestionIds": [
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "AvailableUntil": "2022-10-23T20:00:00",
+      "StartingTime": "2022-10-23T19:00:00",
+      "StudentIds": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "Id": 11,
+      "Name": "1",
+      "QuestionIds": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "AvailableUntil": "2022-10-23T21:00:00",
+      "StartingTime": "2022-10-23T20:00:00",
+      "StudentIds": [
+        1
+      ]
+    },
+    {
+      "Id": 12,
+      "Name": "sgfsf",
+      "QuestionIds": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "AvailableUntil": "2022-11-10T17:00:00",
+      "StartingTime": "2022-11-10T15:00:00",
+      "StudentIds": [
+        1,
+        3
+      ]
     }
   ],
   "Students": [
@@ -72,6 +198,16 @@
     {
       "Id": 4,
       "Name": "",
+      "HasApproval": true
+    },
+    {
+      "Id": 5,
+      "Name": "John",
+      "HasApproval": true
+    },
+    {
+      "Id": 6,
+      "Name": "Boris",
       "HasApproval": true
     }
   ],
@@ -396,37 +532,77 @@
       ]
     },
     {
-      "Id": 16,
-      "Subject": "1",
-      "DifLevel": "1",
-      "Tag": "#ll",
-      "Name": "kjhgvghgk",
-      "Type": "1",
-      "ExamOnly": false,
-      "CorrectAnswer": [
-        1
-      ],
-      "PossAnswers": [
-        "23311",
-        "2135"
-      ]
-    },
-    {
-      "Id": 17,
-      "Subject": "1",
-      "DifLevel": "1",
-      "Tag": "##o",
-      "Name": "jghhj",
-      "Type": "1",
+      "Id": 18,
+      "Subject": "3",
+      "DifLevel": "3",
+      "Tag": "#Misc",
+      "Name": "In C#, structures are used for ___ objects such as mobiles, cars, etc.",
+      "Type": "2",
       "ExamOnly": true,
       "CorrectAnswer": [
         1
       ],
       "PossAnswers": [
-        "112",
-        "1235"
+        "Lightweight",
+        "Darkweight",
+        "Extra",
+        "Compress"
       ]
     }
   ],
-  "Questionnaires": []
+  "Questionnaires": [],
+  "QuestResults": [
+    {
+      "QuestId": 1,
+      "StudentId": 1,
+      "Results": [
+        {
+          "QuestionId": 7,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 12,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 6,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 9,
+          "RightAnswer": true
+        }
+      ]
+    },
+    {
+      "QuestId": 1,
+      "StudentId": 1,
+      "Results": [
+        {
+          "QuestionId": 11,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 11,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 3,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 2,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 14,
+          "RightAnswer": false
+        }
+      ]
+    }
+  ]
 }

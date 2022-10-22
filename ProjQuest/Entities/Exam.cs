@@ -7,9 +7,11 @@ public class Exam
     public List<int> QuestionIds { get; set; }
     public DateTime AvailableUntil { get; set; }
     public DateTime StartingTime { get; set; }
+    public List<int> StudentIds { get; set; }
 
     public Exam()
     {
         QuestionIds = new List<int>();
+        StudentIds = new List<int>();
     }
 }

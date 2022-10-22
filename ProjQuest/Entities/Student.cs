@@ -22,7 +22,7 @@ public class Student
         string name = Console.ReadLine();
         if (!dataBase.Students.Exists(p => p.Name.Equals(name)))
         {
-            student = new Student(1, "", true);
+            student = new Student(1, "", false);
             student.Name = name;
 
             //Check for NULL Exception
@@ -54,33 +54,43 @@ public class Student
 
         int totalCorrect = 0;
 
+        QuestResults questResult = new()
+        {
+            StudentId = Id,
+            QuestId = questionnaire.Id
+        };
+
         foreach (var questId in questionnaire.QuestionIds)
         {
             Console.Clear();
             var quest = dataBase.Questions.FirstOrDefault(p => p.Id == questId);
-
             quest.PrintQuestions(false);
 
             int answer = ProjUtils.ReadInt("Your answer is: ");
+
             bool correctAnswer = quest.CorrectAnswer.Any(p => p == answer);
             if (correctAnswer)
             {
                 totalCorrect++;
             }
+
+            questResult.Results.Add(new QuestResult(questId, correctAnswer));
         }
 
         if (!this.HasApproval)
         {
             this.HasApproval = totalCorrect / questionnaire.QuestionIds.Count > 0.8;
         }
+
+        dataBase.QuestResults.Add(questResult);
     }
 
     private Questionnaire GetQuestionnaire(DataBase dataBase)
     {
         Questionnaire questionnaire = new();
-        var lastQuestionnaire = dataBase.Questionnaires.OrderByDescending(p => p.Id).FirstOrDefault();
 
         //Check for NULL Exception
+        var lastQuestionnaire = dataBase.Questionnaires.OrderByDescending(p => p.Id).FirstOrDefault();
         if (lastQuestionnaire == null)
         {
             questionnaire.Id = 1;
@@ -122,7 +132,7 @@ public class Student
 
         ExamResults examResult = new()
         {
-            StudentId = this.Id,
+            StudentId = Id,
             ExamId = exam.Id
         };
 
@@ -158,4 +168,24 @@ public class Student
             Console.ReadLine();
         }
     }
+
+    public void PrintQuestScore(DataBase dataBase)
+    {
+        Console.Clear();
+
+        var StudentResults = dataBase.QuestResults.Where(s => s.StudentId == this.Id);
+        Console.WriteLine("Score of all questionnaires taken:\n");
+
+        foreach (var res in StudentResults)
+        {
+            int rightAnswers = res.Results.Where(p => p.RightAnswer).Count();
+            int totalAnswers = res.Results.Count;
+            var perc = (rightAnswers * 100) / totalAnswers;
+            Console.WriteLine($"Score: {rightAnswers}/{totalAnswers} = {perc}%");
+            Console.WriteLine("--------------");
+        }
+        Console.ReadLine();
+    }
+
+
 }

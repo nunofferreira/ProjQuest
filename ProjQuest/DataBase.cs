@@ -10,6 +10,7 @@ public class DataBase
     public List<ExamResults> Results { get; set; }
     public List<Question> Questions { get; set; }
     public List<Questionnaire> Questionnaires { get; set; }
+    public List <QuestResults> QuestResults { get; set; }
 
     public DataBase()
     {
@@ -18,6 +19,7 @@ public class DataBase
         Results = new List<ExamResults>();
         Questions = new List<Question>();
         Questionnaires = new List<Questionnaire>();
+        QuestResults = new List<QuestResults>();
     }
 
     private static string GetPath()
