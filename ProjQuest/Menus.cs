@@ -1,4 +1,6 @@
 ﻿using ProjQuest.Entities;
+using System.Xml.Linq;
+
 namespace ProjQuest;
 
 public static class Menus
@@ -87,11 +89,12 @@ public static class Menus
 
     public static void MenuStudent()
     {
+        Student student = Student.GreetAndCheck(dataBase);
+
         while (true)
         {
             Console.Clear();
-
-            Student student = Student.GreetAndCheck(dataBase);
+            Console.WriteLine("\n\tHello {0}!", student.Name);
 
             var menu_3 = @"
         What would you like to do?

@@ -57,7 +57,7 @@ public class ProjUtils
         }
     }
 
-    public static int ReadChar(string message)
+    public static char ReadChar(string message)
     {
         while (true)
         {
@@ -71,6 +71,21 @@ public class ProjUtils
                 return result;
             Console.Clear();
         }
+    }
+
+    public static int RandomIgnoringNumbers(int low, int high, List<int> ingnoreList)
+    {
+        do
+        {
+            Random random = new Random();
+            var res = random.Next(low, high);
+            
+            if (!ingnoreList.Exists(p => p == res))
+            {
+                return res;
+            }
+
+        } while (true);
     }
 
     public static void PrintLogo()

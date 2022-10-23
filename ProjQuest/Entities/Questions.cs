@@ -30,9 +30,7 @@ public class Question
                 foreach (var correct in this.CorrectAnswer)
                 {
                     if (correct == i + 1)
-                    {
                         correctExpression = " (Correct)";
-                    }
                 }
             }
 

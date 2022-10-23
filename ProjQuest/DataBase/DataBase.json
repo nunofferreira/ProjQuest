@@ -10,9 +10,12 @@
         4,
         5
       ],
-      "AvailableUntil": "2022-10-21T15:00:00",
-      "StartingTime": "2022-10-21T14:00:00",
-      "StudentIds": []
+      "AvailableUntil": "2022-10-23T16:00:00",
+      "StartingTime": "2022-10-23T15:00:00",
+      "StudentIds": [
+        3
+      ],
+      "RandomQuests": true
     },
     {
       "Id": 2,
@@ -26,7 +29,8 @@
       ],
       "AvailableUntil": "2022-10-21T21:00:00",
       "StartingTime": "2022-10-21T20:00:00",
-      "StudentIds": []
+      "StudentIds": [],
+      "RandomQuests": false
     },
     {
       "Id": 3,
@@ -40,7 +44,8 @@
       ],
       "AvailableUntil": "2022-10-20T19:00:00",
       "StartingTime": "2022-10-20T17:00:00",
-      "StudentIds": []
+      "StudentIds": [],
+      "RandomQuests": false
     },
     {
       "Id": 4,
@@ -54,7 +59,8 @@
       ],
       "AvailableUntil": "2022-10-21T11:40:00",
       "StartingTime": "2022-10-21T10:40:00",
-      "StudentIds": []
+      "StudentIds": [],
+      "RandomQuests": false
     },
     {
       "Id": 5,
@@ -62,7 +68,8 @@
       "QuestionIds": [],
       "AvailableUntil": "2022-10-23T17:10:00",
       "StartingTime": "2022-10-23T15:10:00",
-      "StudentIds": []
+      "StudentIds": [],
+      "RandomQuests": false
     },
     {
       "Id": 6,
@@ -70,7 +77,8 @@
       "QuestionIds": [],
       "AvailableUntil": "2022-10-24T22:00:00",
       "StartingTime": "2022-10-24T19:00:00",
-      "StudentIds": []
+      "StudentIds": [],
+      "RandomQuests": false
     },
     {
       "Id": 7,
@@ -88,7 +96,8 @@
         4,
         5,
         6
-      ]
+      ],
+      "RandomQuests": false
     },
     {
       "Id": 8,
@@ -103,10 +112,10 @@
       "AvailableUntil": "2022-10-23T17:00:00",
       "StartingTime": "2022-10-23T15:00:00",
       "StudentIds": [
-        1,
         3,
         6
-      ]
+      ],
+      "RandomQuests": false
     },
     {
       "Id": 9,
@@ -125,7 +134,8 @@
         1,
         3,
         4
-      ]
+      ],
+      "RandomQuests": false
     },
     {
       "Id": 10,
@@ -143,7 +153,8 @@
         1,
         3,
         5
-      ]
+      ],
+      "RandomQuests": false
     },
     {
       "Id": 11,
@@ -159,7 +170,8 @@
       "StartingTime": "2022-10-23T20:00:00",
       "StudentIds": [
         1
-      ]
+      ],
+      "RandomQuests": false
     },
     {
       "Id": 12,
@@ -176,7 +188,8 @@
       "StudentIds": [
         1,
         3
-      ]
+      ],
+      "RandomQuests": false
     }
   ],
   "Students": [
@@ -261,6 +274,86 @@
         {
           "QuestionId": 9,
           "RightAnswer": true
+        }
+      ]
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 5,
+      "StudentId": 1,
+      "Results": []
+    },
+    {
+      "ExamId": 9,
+      "StudentId": 1,
+      "Results": [
+        {
+          "QuestionId": 1,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 2,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 3,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 5,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 6,
+          "RightAnswer": false
         }
       ]
     }
@@ -576,7 +669,8 @@
           "QuestionId": 9,
           "RightAnswer": true
         }
-      ]
+      ],
+      "QuestDate": "0001-01-01T00:00:00"
     },
     {
       "QuestId": 1,
@@ -602,7 +696,89 @@
           "QuestionId": 14,
           "RightAnswer": false
         }
-      ]
+      ],
+      "QuestDate": "0001-01-01T00:00:00"
+    },
+    {
+      "QuestId": 1,
+      "StudentId": 1,
+      "Results": [
+        {
+          "QuestionId": 11,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 9,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 7,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 10,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": false
+        }
+      ],
+      "QuestDate": "2022-10-23T16:09:00.6060738+01:00"
+    },
+    {
+      "QuestId": 1,
+      "StudentId": 4,
+      "Results": [
+        {
+          "QuestionId": 6,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 11,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 3,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 8,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 12,
+          "RightAnswer": false
+        }
+      ],
+      "QuestDate": "2022-10-23T18:14:32.5417786+01:00"
+    },
+    {
+      "QuestId": 1,
+      "StudentId": 1,
+      "Results": [
+        {
+          "QuestionId": 9,
+          "RightAnswer": false
+        },
+        {
+          "QuestionId": 8,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 4,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 5,
+          "RightAnswer": true
+        },
+        {
+          "QuestionId": 6,
+          "RightAnswer": true
+        }
+      ],
+      "QuestDate": "2022-10-23T19:11:20.617651+01:00"
     }
   ]
 }

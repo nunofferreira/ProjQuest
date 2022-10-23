@@ -25,31 +25,37 @@ public static class Teacher
         newExam.StartingTime = ProjUtils.ReadDatetime("\t\nExam date: dd/MM/yyyy hh:mm");
         newExam.AvailableUntil = ProjUtils.ReadDatetime("\t\nAvailable until: dd/MM/yyyy hh:mm");
 
+        var answerRnd = ProjUtils.ReadChar("Do you want random questions? y-Yes; n-No");
+        if (answerRnd.Equals('y'))
+        {
+            newExam.RandomQuests = true;
+        }
+
         Console.WriteLine("\nPlease choose the students that will take part in the exam:");
         var allStudents = dataBase.Students.Where(p => p.HasApproval);
         foreach (var student in allStudents)
         {
             Console.WriteLine($"\n{student.Name}");
             var reply = ProjUtils.ReadChar("Add this student? y-Yes; n-No");
-            if (reply.Equals(121))
+            if (reply.Equals('y'))
             {
                 newExam.StudentIds.Add(student.Id);
             }
         }
         Console.Clear();
 
-        var allQuestions = dataBase.Questions.Where(p => !p.ExamOnly);
+        var allQuestions = dataBase.Questions;
         foreach (var question in allQuestions)
         {
             Console.WriteLine($"{question.Subject}\n{question.Name}");
             var answer = ProjUtils.ReadChar("Add this question? y-Yes; n-No");
-            if (answer.Equals(121))
+            if (answer.Equals('y'))
             {
                 newExam.QuestionIds.Add(question.Id);
             }
         }
         Console.Clear();
-        Console.WriteLine($"The Exam {newExam.Name} is ready!\nPlease exit the program to save.");
+        Console.WriteLine($"The Exam '{newExam.Name}' is ready!\nPlease exit the program to save.");
         Console.ReadLine();
 
         dataBase.ExamList.Add(newExam);
@@ -62,22 +68,22 @@ public static class Teacher
         Question question = new();
 
         Console.WriteLine("\tInsert question");
-        string name = Console.ReadLine();
+        question.Name = Console.ReadLine();
 
         Console.WriteLine("\tWhat is the subject? \n1)C# basics \n2)Variables and Data Types \n3)Conditional and Control Statements");
-        string subject = Console.ReadLine();
+        question.Subject = Console.ReadLine();
 
         Console.WriteLine("\tWhat is the dificulty level? \n1)Beginner \n2)Intermediate \n3)Advanced");
-        string difLevel = Console.ReadLine();
+        question.DifLevel = Console.ReadLine();
 
         Console.WriteLine("\tInsert #Tag");
-        string tag = Console.ReadLine();
+        question.Tag = Console.ReadLine();
 
         Console.WriteLine("\tType of question? \n1)CheckBox \n2)DropDown \n3)YesOrNo");
-        string type = Console.ReadLine();
+        question.Type = Console.ReadLine();
 
         Console.WriteLine("\tQuestion only to be used in exams? \n1)True \n2)False");
-        bool examOnly = Convert.ToBoolean(Convert.ToInt32(Console.ReadLine()));
+        question.ExamOnly = Convert.ToBoolean(Convert.ToInt32(Console.ReadLine()));
 
         Console.WriteLine("\tWrite the possible answers");
         int numberOfAnswers = ProjUtils.ReadInt("\t\nHow many?");
@@ -100,12 +106,6 @@ public static class Teacher
         }
 
         Console.WriteLine("");
-        question.Name = name;
-        question.Subject = subject;
-        question.DifLevel = difLevel;
-        question.Tag = tag;
-        question.Type = type;
-        question.ExamOnly = examOnly;
         question.CorrectAnswer = correctAnswerList;
         question.PossAnswers = answersList;
 

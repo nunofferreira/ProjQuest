@@ -8,7 +8,7 @@ public class Exam
     public DateTime AvailableUntil { get; set; }
     public DateTime StartingTime { get; set; }
     public List<int> StudentIds { get; set; }
-
+    public bool RandomQuests { get; set; }
     public Exam()
     {
         QuestionIds = new List<int>();

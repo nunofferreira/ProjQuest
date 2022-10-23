@@ -5,6 +5,7 @@ public class QuestResults
     public int QuestId { get; set; }
     public int StudentId { get; set; }
     public List<QuestResult> Results { get; set; }
+    public DateTime QuestDate { get; set; }
 
     public QuestResults()
     {
