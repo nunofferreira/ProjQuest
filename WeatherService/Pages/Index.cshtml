@@ -1,0 +1,40 @@
+﻿@page "/{city?}"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    // Permite aceder à propriedade MyWeatherData no ficheiro Index.cshtml.cs
+    var data = Model.MyWeatherData;
+}
+
+@*
+Na view é possível usar código c# juntamente com html
+*@
+
+<div class="text-center">
+    <h2 class="display-2">Weather in @data.City.ToUpper()</h2>
+</div>
+
+<ul>
+    <li>City: @data.City.ToUpper()</li>
+    <li>Country: @data.Country</li>
+    <li>Temperature: @data.Temperature ºC</li>
+    <li>Feels Like: @data.FeelsLike ºC</li>
+    <li>@*Icon:*@<img src = @data.Icon width="35" height="35"/></li>
+    <li>Precipitation: @data.Precip</li>
+    <li>Wind Speed: @data.WindSpeed km/h</li>
+    <li>Lat: @data.Lat</li>
+    <li>Long: @data.Long</li>
+    <li>Last Updated: @data.LastUpdated</li>
+</ul>
+
+@*Links que permitem chamar na própria página, passando IDs diferentes
+que se referem a cada uma das cidades. No ficheiro cs
+o nome de cada cidade vai dar entrada no método
+OnGet() através do parâmetro id*@
+<ul>
+    <li><a href="/Leiria">Leiria</a></li>
+    <li><a href="/Lisboa">Lisboa</a></li>
+    <li><a href="/Evora">Évora</a></li>
+    <li><a href="/Oporto">Porto</a></li>
+</ul>

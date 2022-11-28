@@ -1,0 +1,15 @@
+C:\Users\nfsf8\source\repos\CarRacing\bin\Release\net6.0\CarRacing.exe
+C:\Users\nfsf8\source\repos\CarRacing\bin\Release\net6.0\CarRacing.deps.json
+C:\Users\nfsf8\source\repos\CarRacing\bin\Release\net6.0\CarRacing.runtimeconfig.json
+C:\Users\nfsf8\source\repos\CarRacing\bin\Release\net6.0\CarRacing.dll
+C:\Users\nfsf8\source\repos\CarRacing\bin\Release\net6.0\CarRacing.pdb
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.csproj.AssemblyReference.cache
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.AssemblyInfoInputs.cache
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.AssemblyInfo.cs
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.csproj.CoreCompileInputs.cache
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.dll
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\refint\CarRacing.dll
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.pdb
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\CarRacing.genruntimeconfig.cache
+C:\Users\nfsf8\source\repos\CarRacing\obj\Release\net6.0\ref\CarRacing.dll

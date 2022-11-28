@@ -1,0 +1,399 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10
+// command took 1.43s and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10
+// command took 13.65s and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10
+// command took 2.96s and exited with 0
+// ***** Done, took 00:00:18 (18.11 sec)   *****
+// Found 4 benchmarks:
+//   BenchmarkSerializers.SerializeJson: DefaultJob
+//   BenchmarkSerializers.SerializeNewtonJson: DefaultJob
+//   BenchmarkSerializers.DeSerializeJson: DefaultJob
+//   BenchmarkSerializers.DeSerializeNewtonJson: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkSerializers.SerializeJson: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7a98b062-e5e7-4137-bd1f-b56c90443e10.dll --benchmarkName BenchmarkSerializers.SerializeJson --job Default --benchmarkId 0 in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 504600.00 ns, 504.6000 us/op
+WorkloadJitting  1: 1 op, 27636800.00 ns, 27.6368 ms/op
+
+OverheadJitting  2: 16 op, 613400.00 ns, 38.3375 us/op
+WorkloadJitting  2: 16 op, 851800.00 ns, 53.2375 us/op
+
+WorkloadPilot    1: 16 op, 67100.00 ns, 4.1937 us/op
+WorkloadPilot    2: 32 op, 70400.00 ns, 2.2000 us/op
+WorkloadPilot    3: 64 op, 91200.00 ns, 1.4250 us/op
+WorkloadPilot    4: 128 op, 112600.00 ns, 879.6875 ns/op
+WorkloadPilot    5: 256 op, 205400.00 ns, 802.3438 ns/op
+WorkloadPilot    6: 512 op, 413400.00 ns, 807.4219 ns/op
+WorkloadPilot    7: 1024 op, 776000.00 ns, 757.8125 ns/op
+WorkloadPilot    8: 2048 op, 1660900.00 ns, 810.9863 ns/op
+WorkloadPilot    9: 4096 op, 3228100.00 ns, 788.1104 ns/op
+WorkloadPilot   10: 8192 op, 6504500.00 ns, 794.0063 ns/op
+WorkloadPilot   11: 16384 op, 13295200.00 ns, 811.4746 ns/op
+WorkloadPilot   12: 32768 op, 26424800.00 ns, 806.4209 ns/op
+WorkloadPilot   13: 65536 op, 47333100.00 ns, 722.2458 ns/op
+WorkloadPilot   14: 131072 op, 96607500.00 ns, 737.0567 ns/op
+WorkloadPilot   15: 262144 op, 131021100.00 ns, 499.8058 ns/op
+WorkloadPilot   16: 524288 op, 137761100.00 ns, 262.7584 ns/op
+WorkloadPilot   17: 1048576 op, 278686100.00 ns, 265.7758 ns/op
+WorkloadPilot   18: 2097152 op, 549879900.00 ns, 262.2032 ns/op
+
+OverheadWarmup   1: 2097152 op, 7687800.00 ns, 3.6658 ns/op
+OverheadWarmup   2: 2097152 op, 7710000.00 ns, 3.6764 ns/op
+OverheadWarmup   3: 2097152 op, 7642700.00 ns, 3.6443 ns/op
+OverheadWarmup   4: 2097152 op, 7667400.00 ns, 3.6561 ns/op
+OverheadWarmup   5: 2097152 op, 7702100.00 ns, 3.6726 ns/op
+OverheadWarmup   6: 2097152 op, 8036400.00 ns, 3.8321 ns/op
+OverheadWarmup   7: 2097152 op, 7787300.00 ns, 3.7133 ns/op
+
+OverheadActual   1: 2097152 op, 7688200.00 ns, 3.6660 ns/op
+OverheadActual   2: 2097152 op, 7706200.00 ns, 3.6746 ns/op
+OverheadActual   3: 2097152 op, 7730900.00 ns, 3.6864 ns/op
+OverheadActual   4: 2097152 op, 7692800.00 ns, 3.6682 ns/op
+OverheadActual   5: 2097152 op, 7834200.00 ns, 3.7356 ns/op
+OverheadActual   6: 2097152 op, 7872900.00 ns, 3.7541 ns/op
+OverheadActual   7: 2097152 op, 7979600.00 ns, 3.8050 ns/op
+OverheadActual   8: 2097152 op, 7900800.00 ns, 3.7674 ns/op
+OverheadActual   9: 2097152 op, 7705800.00 ns, 3.6744 ns/op
+OverheadActual  10: 2097152 op, 7726400.00 ns, 3.6842 ns/op
+OverheadActual  11: 2097152 op, 8062800.00 ns, 3.8446 ns/op
+OverheadActual  12: 2097152 op, 7742600.00 ns, 3.6920 ns/op
+OverheadActual  13: 2097152 op, 7714900.00 ns, 3.6788 ns/op
+OverheadActual  14: 2097152 op, 7732500.00 ns, 3.6871 ns/op
+OverheadActual  15: 2097152 op, 8227200.00 ns, 3.9230 ns/op
+
+WorkloadWarmup   1: 2097152 op, 547667300.00 ns, 261.1481 ns/op
+WorkloadWarmup   2: 2097152 op, 546453000.00 ns, 260.5691 ns/op
+WorkloadWarmup   3: 2097152 op, 554404200.00 ns, 264.3605 ns/op
+WorkloadWarmup   4: 2097152 op, 549774400.00 ns, 262.1529 ns/op
+WorkloadWarmup   5: 2097152 op, 549528500.00 ns, 262.0356 ns/op
+WorkloadWarmup   6: 2097152 op, 548392100.00 ns, 261.4937 ns/op
+WorkloadWarmup   7: 2097152 op, 547456600.00 ns, 261.0476 ns/op
+WorkloadWarmup   8: 2097152 op, 546246300.00 ns, 260.4705 ns/op
+WorkloadWarmup   9: 2097152 op, 568334400.00 ns, 271.0030 ns/op
+WorkloadWarmup  10: 2097152 op, 552433800.00 ns, 263.4210 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 2097152 op, 558791500.00 ns, 266.4526 ns/op
+WorkloadActual   2: 2097152 op, 546619200.00 ns, 260.6483 ns/op
+WorkloadActual   3: 2097152 op, 548028700.00 ns, 261.3204 ns/op
+WorkloadActual   4: 2097152 op, 548563600.00 ns, 261.5755 ns/op
+WorkloadActual   5: 2097152 op, 548633000.00 ns, 261.6086 ns/op
+WorkloadActual   6: 2097152 op, 546719600.00 ns, 260.6962 ns/op
+WorkloadActual   7: 2097152 op, 546932200.00 ns, 260.7976 ns/op
+WorkloadActual   8: 2097152 op, 546852300.00 ns, 260.7595 ns/op
+WorkloadActual   9: 2097152 op, 545952100.00 ns, 260.3302 ns/op
+WorkloadActual  10: 2097152 op, 550679900.00 ns, 262.5846 ns/op
+WorkloadActual  11: 2097152 op, 545897200.00 ns, 260.3041 ns/op
+WorkloadActual  12: 2097152 op, 548425900.00 ns, 261.5098 ns/op
+WorkloadActual  13: 2097152 op, 543883000.00 ns, 259.3436 ns/op
+WorkloadActual  14: 2097152 op, 552127500.00 ns, 263.2749 ns/op
+WorkloadActual  15: 2097152 op, 545611800.00 ns, 260.1680 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 2097152 op, 538886700.00 ns, 256.9612 ns/op
+WorkloadResult   2: 2097152 op, 540296200.00 ns, 257.6333 ns/op
+WorkloadResult   3: 2097152 op, 540831100.00 ns, 257.8884 ns/op
+WorkloadResult   4: 2097152 op, 540900500.00 ns, 257.9215 ns/op
+WorkloadResult   5: 2097152 op, 538987100.00 ns, 257.0091 ns/op
+WorkloadResult   6: 2097152 op, 539199700.00 ns, 257.1105 ns/op
+WorkloadResult   7: 2097152 op, 539119800.00 ns, 257.0724 ns/op
+WorkloadResult   8: 2097152 op, 538219600.00 ns, 256.6431 ns/op
+WorkloadResult   9: 2097152 op, 542947400.00 ns, 258.8975 ns/op
+WorkloadResult  10: 2097152 op, 538164700.00 ns, 256.6169 ns/op
+WorkloadResult  11: 2097152 op, 540693400.00 ns, 257.8227 ns/op
+WorkloadResult  12: 2097152 op, 536150500.00 ns, 255.6565 ns/op
+WorkloadResult  13: 2097152 op, 537879300.00 ns, 256.4808 ns/op
+
+// AfterAll
+// Benchmark Process 16972 has exited with code 0.
+
+Mean = 257.209 ns, StdErr = 0.228 ns (0.09%), N = 13, StdDev = 0.822 ns
+Min = 255.656 ns, Q1 = 256.643 ns, Median = 257.072 ns, Q3 = 257.823 ns, Max = 258.897 ns
+IQR = 1.180 ns, LowerFence = 254.874 ns, UpperFence = 259.592 ns
+ConfidenceInterval = [256.224 ns; 258.194 ns] (CI 99.9%), Margin = 0.985 ns (0.38% of Mean)
+Skewness = 0.17, Kurtosis = 2.54, MValue = 2
+
+// ** Remained 3 (75.0%) benchmark(s) to run. Estimated finish 2022-11-08 23:01 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkSerializers.SerializeNewtonJson: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7a98b062-e5e7-4137-bd1f-b56c90443e10.dll --benchmarkName BenchmarkSerializers.SerializeNewtonJson --job Default --benchmarkId 1 in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 323200.00 ns, 323.2000 us/op
+WorkloadJitting  1: 1 op, 78130700.00 ns, 78.1307 ms/op
+
+WorkloadPilot    1: 2 op, 57200.00 ns, 28.6000 us/op
+WorkloadPilot    2: 3 op, 13500.00 ns, 4.5000 us/op
+WorkloadPilot    3: 4 op, 13400.00 ns, 3.3500 us/op
+WorkloadPilot    4: 5 op, 13100.00 ns, 2.6200 us/op
+WorkloadPilot    5: 6 op, 15000.00 ns, 2.5000 us/op
+WorkloadPilot    6: 7 op, 29600.00 ns, 4.2286 us/op
+WorkloadPilot    7: 8 op, 18000.00 ns, 2.2500 us/op
+WorkloadPilot    8: 9 op, 19500.00 ns, 2.1667 us/op
+WorkloadPilot    9: 10 op, 20800.00 ns, 2.0800 us/op
+WorkloadPilot   10: 11 op, 26100.00 ns, 2.3727 us/op
+WorkloadPilot   11: 12 op, 60400.00 ns, 5.0333 us/op
+WorkloadPilot   12: 13 op, 41000.00 ns, 3.1538 us/op
+WorkloadPilot   13: 14 op, 36700.00 ns, 2.6214 us/op
+WorkloadPilot   14: 15 op, 34100.00 ns, 2.2733 us/op
+WorkloadPilot   15: 16 op, 34600.00 ns, 2.1625 us/op
+WorkloadPilot   16: 32 op, 68400.00 ns, 2.1375 us/op
+WorkloadPilot   17: 64 op, 121000.00 ns, 1.8906 us/op
+WorkloadPilot   18: 128 op, 227300.00 ns, 1.7758 us/op
+WorkloadPilot   19: 256 op, 405100.00 ns, 1.5824 us/op
+WorkloadPilot   20: 512 op, 785300.00 ns, 1.5338 us/op
+WorkloadPilot   21: 1024 op, 1668900.00 ns, 1.6298 us/op
+WorkloadPilot   22: 2048 op, 3128600.00 ns, 1.5276 us/op
+WorkloadPilot   23: 4096 op, 6570300.00 ns, 1.6041 us/op
+WorkloadPilot   24: 8192 op, 11766300.00 ns, 1.4363 us/op
+WorkloadPilot   25: 16384 op, 23009700.00 ns, 1.4044 us/op
+WorkloadPilot   26: 32768 op, 46305300.00 ns, 1.4131 us/op
+WorkloadPilot   27: 65536 op, 64802200.00 ns, 988.8031 ns/op
+WorkloadPilot   28: 131072 op, 80109300.00 ns, 611.1855 ns/op
+WorkloadPilot   29: 262144 op, 154210100.00 ns, 588.2648 ns/op
+WorkloadPilot   30: 524288 op, 306077600.00 ns, 583.7967 ns/op
+WorkloadPilot   31: 1048576 op, 614808900.00 ns, 586.3275 ns/op
+
+WorkloadWarmup   1: 1048576 op, 612781600.00 ns, 584.3941 ns/op
+WorkloadWarmup   2: 1048576 op, 594423000.00 ns, 566.8859 ns/op
+WorkloadWarmup   3: 1048576 op, 615083000.00 ns, 586.5889 ns/op
+WorkloadWarmup   4: 1048576 op, 616683200.00 ns, 588.1149 ns/op
+WorkloadWarmup   5: 1048576 op, 611564300.00 ns, 583.2332 ns/op
+WorkloadWarmup   6: 1048576 op, 585832600.00 ns, 558.6935 ns/op
+WorkloadWarmup   7: 1048576 op, 613288100.00 ns, 584.8771 ns/op
+WorkloadWarmup   8: 1048576 op, 612778600.00 ns, 584.3912 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 1048576 op, 609520600.00 ns, 581.2841 ns/op
+WorkloadActual   2: 1048576 op, 608693200.00 ns, 580.4951 ns/op
+WorkloadActual   3: 1048576 op, 618936400.00 ns, 590.2637 ns/op
+WorkloadActual   4: 1048576 op, 606004300.00 ns, 577.9307 ns/op
+WorkloadActual   5: 1048576 op, 617214800.00 ns, 588.6219 ns/op
+WorkloadActual   6: 1048576 op, 611592300.00 ns, 583.2599 ns/op
+WorkloadActual   7: 1048576 op, 578131300.00 ns, 551.3490 ns/op
+WorkloadActual   8: 1048576 op, 602429000.00 ns, 574.5211 ns/op
+WorkloadActual   9: 1048576 op, 611612100.00 ns, 583.2788 ns/op
+WorkloadActual  10: 1048576 op, 604568900.00 ns, 576.5618 ns/op
+WorkloadActual  11: 1048576 op, 584670800.00 ns, 557.5855 ns/op
+WorkloadActual  12: 1048576 op, 608499200.00 ns, 580.3101 ns/op
+WorkloadActual  13: 1048576 op, 609280600.00 ns, 581.0553 ns/op
+WorkloadActual  14: 1048576 op, 611478900.00 ns, 583.1517 ns/op
+WorkloadActual  15: 1048576 op, 621381700.00 ns, 592.5958 ns/op
+WorkloadActual  16: 1048576 op, 614232900.00 ns, 585.7781 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 1048576 op, 609520600.00 ns, 581.2841 ns/op
+WorkloadResult   2: 1048576 op, 608693200.00 ns, 580.4951 ns/op
+WorkloadResult   3: 1048576 op, 618936400.00 ns, 590.2637 ns/op
+WorkloadResult   4: 1048576 op, 606004300.00 ns, 577.9307 ns/op
+WorkloadResult   5: 1048576 op, 617214800.00 ns, 588.6219 ns/op
+WorkloadResult   6: 1048576 op, 611592300.00 ns, 583.2599 ns/op
+WorkloadResult   7: 1048576 op, 578131300.00 ns, 551.3490 ns/op
+WorkloadResult   8: 1048576 op, 602429000.00 ns, 574.5211 ns/op
+WorkloadResult   9: 1048576 op, 611612100.00 ns, 583.2788 ns/op
+WorkloadResult  10: 1048576 op, 604568900.00 ns, 576.5618 ns/op
+WorkloadResult  11: 1048576 op, 584670800.00 ns, 557.5855 ns/op
+WorkloadResult  12: 1048576 op, 608499200.00 ns, 580.3101 ns/op
+WorkloadResult  13: 1048576 op, 609280600.00 ns, 581.0553 ns/op
+WorkloadResult  14: 1048576 op, 611478900.00 ns, 583.1517 ns/op
+WorkloadResult  15: 1048576 op, 621381700.00 ns, 592.5958 ns/op
+WorkloadResult  16: 1048576 op, 614232900.00 ns, 585.7781 ns/op
+
+// AfterAll
+// Benchmark Process 4056 has exited with code 0.
+
+Mean = 579.253 ns, StdErr = 2.713 ns (0.47%), N = 16, StdDev = 10.852 ns
+Min = 551.349 ns, Q1 = 577.589 ns, Median = 581.170 ns, Q3 = 583.904 ns, Max = 592.596 ns
+IQR = 6.315 ns, LowerFence = 568.116 ns, UpperFence = 593.376 ns
+ConfidenceInterval = [568.203 ns; 590.302 ns] (CI 99.9%), Margin = 11.050 ns (1.91% of Mean)
+Skewness = -1.32, Kurtosis = 3.98, MValue = 2
+
+// ** Remained 2 (50.0%) benchmark(s) to run. Estimated finish 2022-11-08 23:01 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkSerializers.DeSerializeJson: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7a98b062-e5e7-4137-bd1f-b56c90443e10.dll --benchmarkName BenchmarkSerializers.DeSerializeJson --job Default --benchmarkId 2 in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 337300.00 ns, 337.3000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'json')
+   at System.Text.Json.ThrowHelper.ThrowArgumentNullException(String parameterName)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at BenchmarkSerializers.DeSerializeJson() in C:\Users\nfsf8\source\repos\Benchmark\BenchmarkSerializers.cs:line 29
+   at BenchmarkDotNet.Autogenerated.Runnable_2.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 730
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.Run(IHost host, String benchmarkName) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 585
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 58
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 11352 has exited with code -1.
+
+// ** Remained 1 (25.0%) benchmark(s) to run. Estimated finish 2022-11-08 23:01 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkSerializers.DeSerializeNewtonJson: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7a98b062-e5e7-4137-bd1f-b56c90443e10.dll --benchmarkName BenchmarkSerializers.DeSerializeNewtonJson --job Default --benchmarkId 3 in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 276400.00 ns, 276.4000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at BenchmarkSerializers.DeSerializeNewtonJson() in C:\Users\nfsf8\source\repos\Benchmark\BenchmarkSerializers.cs:line 35
+   at BenchmarkDotNet.Autogenerated.Runnable_3.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 935
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.Run(IHost host, String benchmarkName) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 790
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\7a98b062-e5e7-4137-bd1f-b56c90443e10\7a98b062-e5e7-4137-bd1f-b56c90443e10.notcs:line 58
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 4628 has exited with code -1.
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2022-11-08 23:01 (0h 0m from now) **
+Successfully reverted power plan (GUID: 27fa6203-3987-4dcc-918d-748559d549ec FriendlyName: Performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report.csv
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report-github.md
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report.html
+
+// * Detailed results *
+BenchmarkSerializers.SerializeJson: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2; GC = Concurrent Workstation
+Mean = 257.209 ns, StdErr = 0.228 ns (0.09%), N = 13, StdDev = 0.822 ns
+Min = 255.656 ns, Q1 = 256.643 ns, Median = 257.072 ns, Q3 = 257.823 ns, Max = 258.897 ns
+IQR = 1.180 ns, LowerFence = 254.874 ns, UpperFence = 259.592 ns
+ConfidenceInterval = [256.224 ns; 258.194 ns] (CI 99.9%), Margin = 0.985 ns (0.38% of Mean)
+Skewness = 0.17, Kurtosis = 2.54, MValue = 2
+-------------------- Histogram --------------------
+[255.197 ns ; 259.357 ns) | @@@@@@@@@@@@@
+---------------------------------------------------
+
+BenchmarkSerializers.SerializeNewtonJson: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2; GC = Concurrent Workstation
+Mean = 579.253 ns, StdErr = 2.713 ns (0.47%), N = 16, StdDev = 10.852 ns
+Min = 551.349 ns, Q1 = 577.589 ns, Median = 581.170 ns, Q3 = 583.904 ns, Max = 592.596 ns
+IQR = 6.315 ns, LowerFence = 568.116 ns, UpperFence = 593.376 ns
+ConfidenceInterval = [568.203 ns; 590.302 ns] (CI 99.9%), Margin = 11.050 ns (1.91% of Mean)
+Skewness = -1.32, Kurtosis = 3.98, MValue = 2
+-------------------- Histogram --------------------
+[548.815 ns ; 560.120 ns) | @@
+[560.120 ns ; 574.348 ns) | 
+[574.348 ns ; 598.249 ns) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+BenchmarkSerializers.DeSerializeJson: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2; GC = Concurrent Workstation
+There are not any results runs
+
+BenchmarkSerializers.DeSerializeNewtonJson: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.2, OS=Windows 11 (10.0.22621.819)
+AMD Ryzen 7 4800H with Radeon Graphics, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=7.0.100
+  [Host]     : .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+  DefaultJob : .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+
+
+|                Method |     Mean |    Error |   StdDev |
+|---------------------- |---------:|---------:|---------:|
+|         SerializeJson | 257.2 ns |  0.98 ns |  0.82 ns |
+|   SerializeNewtonJson | 579.3 ns | 11.05 ns | 10.85 ns |
+|       DeSerializeJson |       NA |       NA |       NA |
+| DeSerializeNewtonJson |       NA |       NA |       NA |
+
+Benchmarks with issues:
+  BenchmarkSerializers.DeSerializeJson: DefaultJob
+  BenchmarkSerializers.DeSerializeNewtonJson: DefaultJob
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - Windows Defender (windowsdefender://)
+Use InProcessEmitToolchain or InProcessNoEmitToolchain to avoid new process creation.
+
+
+// * Hints *
+Outliers
+  BenchmarkSerializers.SerializeJson: Default       -> 2 outliers were removed (263.27 ns, 266.45 ns)
+  BenchmarkSerializers.SerializeNewtonJson: Default -> 2 outliers were detected (551.35 ns, 557.59 ns)
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ns   : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:32 (32.22 sec), executed benchmarks: 4
+
+Global total time: 00:00:50 (50.57 sec), executed benchmarks: 4
+// * Artifacts cleanup *

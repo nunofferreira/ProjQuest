@@ -1,6 +1,6 @@
-﻿using CarRacing;
+﻿using CarRace.Vehicles;
 
-static class CarDealer
+public static class CarDealer
 {
     static Random rnd = new();
 
@@ -11,7 +11,7 @@ static class CarDealer
     static char[] symbols =
      {'=', '-', '+', '<', '>', '~', '#', '*', '¬', '/'};
 
-    internal static List<Car> GetCars(int numCars)
+    public static List<Car> GetCars(int numCars)
     {
         List<Car> cars = new List<Car>();
 

@@ -1,4 +1,4 @@
-﻿namespace Demos
+﻿namespace Demos.Utils
 {
     public static class Roleta
     {

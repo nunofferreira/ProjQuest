@@ -1,0 +1,12 @@
+C:\Users\nfsf8\source\repos\Demos.Utils\bin\Release\net6.0\Demos.Utils.deps.json
+C:\Users\nfsf8\source\repos\Demos.Utils\bin\Release\net6.0\Demos.Utils.dll
+C:\Users\nfsf8\source\repos\Demos.Utils\bin\Release\net6.0\Demos.Utils.pdb
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.csproj.AssemblyReference.cache
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.AssemblyInfoInputs.cache
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.AssemblyInfo.cs
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.csproj.CoreCompileInputs.cache
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.dll
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\refint\Demos.Utils.dll
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\Demos.Utils.pdb
+C:\Users\nfsf8\source\repos\Demos.Utils\obj\Release\net6.0\ref\Demos.Utils.dll

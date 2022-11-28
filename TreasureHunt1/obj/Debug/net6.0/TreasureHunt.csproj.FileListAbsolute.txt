@@ -1,0 +1,15 @@
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\bin\Debug\net6.0\TreasureHunt.exe
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\bin\Debug\net6.0\TreasureHunt.deps.json
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\bin\Debug\net6.0\TreasureHunt.runtimeconfig.json
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\bin\Debug\net6.0\TreasureHunt.dll
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\bin\Debug\net6.0\TreasureHunt.pdb
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.csproj.AssemblyReference.cache
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.AssemblyInfoInputs.cache
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.AssemblyInfo.cs
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.csproj.CoreCompileInputs.cache
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.dll
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\refint\TreasureHunt.dll
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.pdb
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\TreasureHunt.genruntimeconfig.cache
+C:\repos\restart-v7\Codigo\Demos\TreasureHunt\obj\Debug\net6.0\ref\TreasureHunt.dll

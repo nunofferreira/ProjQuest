@@ -19,6 +19,11 @@ public class Student
 
         Console.WriteLine("\n\tPlease write your name: ");
         string name = Console.ReadLine();
+        while (name is null || name is "")
+        {
+            name = Console.ReadLine();
+        }
+
         if (!dataBase.Students.Exists(p => p.Name.Equals(name)))
         {
             student = new Student(1, "", false);
@@ -68,9 +73,7 @@ public class Student
         }
 
         if (!this.HasApproval)
-            this.HasApproval = totalCorrect / questionnaire.QuestionIds.Count > 0.8;
-
-        //examResult.Results.Add(new ExamResult(quest.Id, correctAnswer));
+            this.HasApproval = totalCorrect / questionnaire.QuestionIds.Count >= 0.8;
 
         dataBase.QuestResults.Add(questResult);
 
@@ -120,14 +123,26 @@ public class Student
     {
         var examList = dataBase.ExamList.Where(p => (p.StartingTime <= DateTime.Now &&
         p.AvailableUntil >= DateTime.Now)).ToList();
-        
+
+        //check if student has had 80% or more in questionnaire
+        if (this.HasApproval == false)
+        {
+            Console.Clear();
+            Console.Beep();
+            Console.Write("You have to get approval in the questionnaire first!");
+            Console.ReadLine();
+
+            return;
+        }
+
         //Check if there is any available exam for this time 
         if (examList == null || examList.Count == 0)
         {
             Console.Clear();
             Console.Beep();
-            Console.WriteLine("There are no exams at this time!\n Please check the Time and date of Exam?");
+            Console.WriteLine("There are no exams at this time!\n Please check the Time and date of Exam.");
             Console.ReadLine();
+
             return;
         }
 
@@ -143,6 +158,8 @@ public class Student
 
         if (exam == null)
         {
+            Console.Clear();
+            Console.Beep();
             Console.WriteLine("There are no exams!\nHas the teacher made the exam available for you?");
             Console.ReadLine();
 
@@ -154,10 +171,11 @@ public class Student
             StudentId = Id,
             ExamId = exam.Id
         };
-
+        
         List<int> questionsOnExam = new();
         for (int i = 0; i < exam.QuestionIds.Count; i++)
         {
+            Console.Clear();
             int nextQuestion = 0;
 
             //Check for repeat questions 
@@ -165,7 +183,7 @@ public class Student
                 nextQuestion = ProjUtils.RandomIgnoringNumbers(0, exam.QuestionIds.Count - 1, questionsOnExam);
             else
                 nextQuestion = i;
-
+            
             questionsOnExam.Add(nextQuestion);
 
             var quest = dataBase.Questions[nextQuestion];
@@ -186,8 +204,12 @@ public class Student
         Console.Clear();
 
         var StudentResults = dataBase.Results.Where(s => s.StudentId == this.Id);
+        Console.WriteLine("All Exams taken and the right answers:\n");
+
         foreach (var res in StudentResults)
         {
+            Console.WriteLine(res.ExamId);
+
             foreach (var result in res.Results)
             {
                 Console.WriteLine("-------------");

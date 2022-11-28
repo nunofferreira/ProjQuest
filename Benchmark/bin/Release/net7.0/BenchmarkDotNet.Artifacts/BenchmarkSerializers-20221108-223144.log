@@ -1,0 +1,161 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\cdc555c7-5237-4cc0-8440-31e2d81781fa
+// command took 1.51s and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\cdc555c7-5237-4cc0-8440-31e2d81781fa
+// command took 14.25s and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\cdc555c7-5237-4cc0-8440-31e2d81781fa
+// command took 3.39s and exited with 0
+// ***** Done, took 00:00:19 (19.23 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkSerializers.SerializeJson: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: BenchmarkSerializers.SerializeJson: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet cdc555c7-5237-4cc0-8440-31e2d81781fa.dll --benchmarkName BenchmarkSerializers.SerializeJson --job Default --benchmarkId 0 in C:\Users\nfsf8\source\repos\Benchmark\bin\Release\net7.0\cdc555c7-5237-4cc0-8440-31e2d81781fa\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 346400.00 ns, 346.4000 us/op
+WorkloadJitting  1: 1 op, 33877100.00 ns, 33.8771 ms/op
+
+WorkloadPilot    1: 2 op, 121500.00 ns, 60.7500 us/op
+WorkloadPilot    2: 3 op, 86800.00 ns, 28.9333 us/op
+WorkloadPilot    3: 4 op, 65200.00 ns, 16.3000 us/op
+WorkloadPilot    4: 5 op, 22600.00 ns, 4.5200 us/op
+WorkloadPilot    5: 6 op, 13600.00 ns, 2.2667 us/op
+WorkloadPilot    6: 7 op, 13900.00 ns, 1.9857 us/op
+WorkloadPilot    7: 8 op, 21200.00 ns, 2.6500 us/op
+WorkloadPilot    8: 9 op, 16500.00 ns, 1.8333 us/op
+WorkloadPilot    9: 10 op, 15400.00 ns, 1.5400 us/op
+WorkloadPilot   10: 11 op, 30300.00 ns, 2.7545 us/op
+WorkloadPilot   11: 12 op, 26500.00 ns, 2.2083 us/op
+WorkloadPilot   12: 13 op, 42800.00 ns, 3.2923 us/op
+WorkloadPilot   13: 14 op, 29000.00 ns, 2.0714 us/op
+WorkloadPilot   14: 15 op, 21200.00 ns, 1.4133 us/op
+WorkloadPilot   15: 16 op, 23700.00 ns, 1.4812 us/op
+WorkloadPilot   16: 32 op, 34100.00 ns, 1.0656 us/op
+WorkloadPilot   17: 64 op, 55500.00 ns, 867.1875 ns/op
+WorkloadPilot   18: 128 op, 114900.00 ns, 897.6562 ns/op
+WorkloadPilot   19: 256 op, 201700.00 ns, 787.8906 ns/op
+WorkloadPilot   20: 512 op, 400200.00 ns, 781.6406 ns/op
+WorkloadPilot   21: 1024 op, 783900.00 ns, 765.5273 ns/op
+WorkloadPilot   22: 2048 op, 1610000.00 ns, 786.1328 ns/op
+WorkloadPilot   23: 4096 op, 3359400.00 ns, 820.1660 ns/op
+WorkloadPilot   24: 8192 op, 5946600.00 ns, 725.9033 ns/op
+WorkloadPilot   25: 16384 op, 14057300.00 ns, 857.9895 ns/op
+WorkloadPilot   26: 32768 op, 28078300.00 ns, 856.8817 ns/op
+WorkloadPilot   27: 65536 op, 48235000.00 ns, 736.0077 ns/op
+WorkloadPilot   28: 131072 op, 94273900.00 ns, 719.2528 ns/op
+WorkloadPilot   29: 262144 op, 114071900.00 ns, 435.1498 ns/op
+WorkloadPilot   30: 524288 op, 142594600.00 ns, 271.9776 ns/op
+WorkloadPilot   31: 1048576 op, 284395200.00 ns, 271.2204 ns/op
+WorkloadPilot   32: 2097152 op, 565558500.00 ns, 269.6793 ns/op
+
+WorkloadWarmup   1: 2097152 op, 608865400.00 ns, 290.3296 ns/op
+WorkloadWarmup   2: 2097152 op, 578729400.00 ns, 275.9597 ns/op
+WorkloadWarmup   3: 2097152 op, 594678100.00 ns, 283.5646 ns/op
+WorkloadWarmup   4: 2097152 op, 570757800.00 ns, 272.1585 ns/op
+WorkloadWarmup   5: 2097152 op, 571442600.00 ns, 272.4851 ns/op
+WorkloadWarmup   6: 2097152 op, 591871700.00 ns, 282.2264 ns/op
+WorkloadWarmup   7: 2097152 op, 565026600.00 ns, 269.4257 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 2097152 op, 576889500.00 ns, 275.0823 ns/op
+WorkloadActual   2: 2097152 op, 577274400.00 ns, 275.2659 ns/op
+WorkloadActual   3: 2097152 op, 582359300.00 ns, 277.6906 ns/op
+WorkloadActual   4: 2097152 op, 574863200.00 ns, 274.1161 ns/op
+WorkloadActual   5: 2097152 op, 565257700.00 ns, 269.5359 ns/op
+WorkloadActual   6: 2097152 op, 575849600.00 ns, 274.5865 ns/op
+WorkloadActual   7: 2097152 op, 571556800.00 ns, 272.5395 ns/op
+WorkloadActual   8: 2097152 op, 559157300.00 ns, 266.6270 ns/op
+WorkloadActual   9: 2097152 op, 553405800.00 ns, 263.8844 ns/op
+WorkloadActual  10: 2097152 op, 571150600.00 ns, 272.3458 ns/op
+WorkloadActual  11: 2097152 op, 554429500.00 ns, 264.3726 ns/op
+WorkloadActual  12: 2097152 op, 587671000.00 ns, 280.2234 ns/op
+WorkloadActual  13: 2097152 op, 577074300.00 ns, 275.1705 ns/op
+WorkloadActual  14: 2097152 op, 565747400.00 ns, 269.7694 ns/op
+WorkloadActual  15: 2097152 op, 570167600.00 ns, 271.8771 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 2097152 op, 576889500.00 ns, 275.0823 ns/op
+WorkloadResult   2: 2097152 op, 577274400.00 ns, 275.2659 ns/op
+WorkloadResult   3: 2097152 op, 582359300.00 ns, 277.6906 ns/op
+WorkloadResult   4: 2097152 op, 574863200.00 ns, 274.1161 ns/op
+WorkloadResult   5: 2097152 op, 565257700.00 ns, 269.5359 ns/op
+WorkloadResult   6: 2097152 op, 575849600.00 ns, 274.5865 ns/op
+WorkloadResult   7: 2097152 op, 571556800.00 ns, 272.5395 ns/op
+WorkloadResult   8: 2097152 op, 559157300.00 ns, 266.6270 ns/op
+WorkloadResult   9: 2097152 op, 553405800.00 ns, 263.8844 ns/op
+WorkloadResult  10: 2097152 op, 571150600.00 ns, 272.3458 ns/op
+WorkloadResult  11: 2097152 op, 554429500.00 ns, 264.3726 ns/op
+WorkloadResult  12: 2097152 op, 587671000.00 ns, 280.2234 ns/op
+WorkloadResult  13: 2097152 op, 577074300.00 ns, 275.1705 ns/op
+WorkloadResult  14: 2097152 op, 565747400.00 ns, 269.7694 ns/op
+WorkloadResult  15: 2097152 op, 570167600.00 ns, 271.8771 ns/op
+
+// AfterAll
+// Benchmark Process 11072 has exited with code 0.
+
+Mean = 272.206 ns, StdErr = 1.205 ns (0.44%), N = 15, StdDev = 4.669 ns
+Min = 263.884 ns, Q1 = 269.653 ns, Median = 272.540 ns, Q3 = 275.126 ns, Max = 280.223 ns
+IQR = 5.474 ns, LowerFence = 261.442 ns, UpperFence = 283.337 ns
+ConfidenceInterval = [267.215 ns; 277.197 ns] (CI 99.9%), Margin = 4.991 ns (1.83% of Mean)
+Skewness = -0.32, Kurtosis = 2.1, MValue = 2
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2022-11-08 22:32 (0h 0m from now) **
+Successfully reverted power plan (GUID: 27fa6203-3987-4dcc-918d-748559d549ec FriendlyName: Performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report.csv
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report-github.md
+  BenchmarkDotNet.Artifacts\results\BenchmarkSerializers-report.html
+
+// * Detailed results *
+BenchmarkSerializers.SerializeJson: DefaultJob
+Runtime = .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2; GC = Concurrent Workstation
+Mean = 272.206 ns, StdErr = 1.205 ns (0.44%), N = 15, StdDev = 4.669 ns
+Min = 263.884 ns, Q1 = 269.653 ns, Median = 272.540 ns, Q3 = 275.126 ns, Max = 280.223 ns
+IQR = 5.474 ns, LowerFence = 261.442 ns, UpperFence = 283.337 ns
+ConfidenceInterval = [267.215 ns; 277.197 ns] (CI 99.9%), Margin = 4.991 ns (1.83% of Mean)
+Skewness = -0.32, Kurtosis = 2.1, MValue = 2
+-------------------- Histogram --------------------
+[262.603 ns ; 270.836 ns) | @@@@@
+[270.836 ns ; 281.747 ns) | @@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.2, OS=Windows 11 (10.0.22621.819)
+AMD Ryzen 7 4800H with Radeon Graphics, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=7.0.100
+  [Host]     : .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+  DefaultJob : .NET 7.0.0 (7.0.22.51805), X64 RyuJIT AVX2
+
+
+|        Method |     Mean |   Error |  StdDev |
+|-------------- |---------:|--------:|--------:|
+| SerializeJson | 272.2 ns | 4.99 ns | 4.67 ns |
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ns   : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:14 (14.36 sec), executed benchmarks: 1
+
+Global total time: 00:00:33 (33.81 sec), executed benchmarks: 1
+// * Artifacts cleanup *

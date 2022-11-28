@@ -1,0 +1,4513 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Em que lugar vivem mais cangurus que pessoas?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Nova Zelandia",
+    "Resposta3": "Brazil",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 2,
+    "Nome": "Djokovic \u00E9 um conhecido :",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenista",
+    "Resposta2": "Skater",
+    "Resposta3": "Surfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 3,
+    "Nome": "Quais destas cidades sao portuguesas?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Viana",
+    "Resposta2": "\u00C9vora",
+    "Resposta3": "Salamanca",
+    "Resposta4": "Porto",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 4,
+    "Nome": "Quais destes clubes de futebol sao Europeus?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Real Madrid",
+    "Resposta2": "Dortmund",
+    "Resposta3": "River",
+    "Resposta4": "Palmeiras",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 5,
+    "Nome": "Onde fica Guadalupe?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Continente americano",
+    "Resposta2": "Continente africano",
+    "Resposta3": "Continente europeu",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 6,
+    "Nome": "O Benfica \u00E9 vermelho?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 7,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 8,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 9,
+    "Nome": "A capital de Portugal \u00E9 o Porto?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 10,
+    "Nome": "Senhor dos Aneis \u00E9 um filme baseado num livro escrito por: ",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tolkien",
+    "Resposta2": "Tolstoi",
+    "Resposta3": "Orwell",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 11,
+    "Nome": "Alfred Hitchcock realizou Its a Wonderful Life?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 12,
+    "Nome": "Quais destes filmes foram realizados por Ingmar Bergman?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Wild Strawberries",
+    "Resposta2": "Fanny and Alexander",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 12,
+    "Nome": "Budapeste \u00E9 uma cidade na Hungria:",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 13,
+    "Nome": "Quais destas cidades ficam em Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Madrid",
+    "Resposta2": "Zaragoza",
+    "Resposta3": "Toulouse",
+    "Resposta4": "Corunha",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 14,
+    "Nome": "Onde fica a Su\u00E9cia?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Europa",
+    "Resposta2": "Africa",
+    "Resposta3": "America do Norte",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 15,
+    "Nome": "Estas cidades sao Suecas?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Malmo",
+    "Resposta2": "Estocolmo",
+    "Resposta3": "Gotemburgo",
+    "Resposta4": "Copenhaga",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 16,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 17,
+    "Nome": "Copenhaga fica na Dinamarca?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 18,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 19,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 20,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 21,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 22,
+    "Nome": "Qual \u00E9 a capital da Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Lyon",
+    "Resposta2": "Paris",
+    "Resposta3": "Nice",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 24,
+    "Nome": "Onde fica Reykjavic?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Noruega",
+    "Resposta3": "Nova Zelandia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 25,
+    "Nome": "Portugal fica na Europa?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 26,
+    "Nome": "Quais destes pa\u00EDses sao Africanos",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Sao Tome e Principe",
+    "Resposta2": "Africa do Sul",
+    "Resposta3": "Guin\u00E9",
+    "Resposta4": "Nova Zelandia",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 27,
+    "Nome": "Federer \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenis",
+    "Resposta2": "Box",
+    "Resposta3": "Karate",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 28,
+    "Nome": "Ronaldo \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Futebolista",
+    "Resposta2": "Basquetebolista",
+    "Resposta3": "Golfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 29,
+    "Nome": "Onde joga o Messi?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Psg",
+    "Resposta2": "Porto",
+    "Resposta3": "Barcelona",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 30,
+    "Nome": "John John Florence pratica que desporto?",
+    "Assunto": 1,
+    "Nivel": 1,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Surf",
+    "Resposta2": "Box",
+    "Resposta3": "Futebol",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 31,
+    "Nome": "Em que lugar vivem mais cangurus que pessoas?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Nova Zelandia",
+    "Resposta3": "Brazil",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 32,
+    "Nome": "Djokovic \u00E9 um conhecido :",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenista",
+    "Resposta2": "Skater",
+    "Resposta3": "Surfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 33,
+    "Nome": "Quais destas cidades sao portuguesas?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Viana",
+    "Resposta2": "\u00C9vora",
+    "Resposta3": "Salamanca",
+    "Resposta4": "Porto",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 34,
+    "Nome": "Quais destes clubes de futebol sao Europeus?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Real Madrid",
+    "Resposta2": "Dortmund",
+    "Resposta3": "River",
+    "Resposta4": "Palmeiras",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 35,
+    "Nome": "Onde fica Guadalupe?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Continente americano",
+    "Resposta2": "Continente africano",
+    "Resposta3": "Continente europeu",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 36,
+    "Nome": "O Benfica \u00E9 vermelho?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 37,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 38,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 39,
+    "Nome": "A capital de Portugal \u00E9 o Porto?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 40,
+    "Nome": "Senhor dos Aneis \u00E9 um filme baseado num livro escrito por: ",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tolkien",
+    "Resposta2": "Tolstoi",
+    "Resposta3": "Orwell",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 41,
+    "Nome": "Alfred Hitchcock realizou Jaws?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 42,
+    "Nome": "Quais destes nomes sao de conhecidas atrizes",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Natalie Portman",
+    "Resposta2": "Keira Knightley",
+    "Resposta3": "Shakira",
+    "Resposta4": "Oprah",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 43,
+    "Nome": "Budapeste \u00E9 uma cidade na Hungria:",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 44,
+    "Nome": "Quais destas cidades ficam em Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Madrid",
+    "Resposta2": "Zaragoza",
+    "Resposta3": "Toulouse",
+    "Resposta4": "Corunha",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 45,
+    "Nome": "Onde fica a Su\u00E9cia?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Europa",
+    "Resposta2": "Africa",
+    "Resposta3": "America do Norte",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 46,
+    "Nome": "Estas cidades sao Suecas?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Malmo",
+    "Resposta2": "Estocolmo",
+    "Resposta3": "Gotemburgo",
+    "Resposta4": "Copenhaga",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 47,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 48,
+    "Nome": "Copenhaga fica na Dinamarca?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 49,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 50,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 51,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 52,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 53,
+    "Nome": "Qual \u00E9 a capital da Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Lyon",
+    "Resposta2": "Paris",
+    "Resposta3": "Nice",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 54,
+    "Nome": "Onde fica Reykjavic?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Noruega",
+    "Resposta3": "Nova Zelandia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 55,
+    "Nome": "Portugal fica na Europa?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 56,
+    "Nome": "Quais destes pa\u00EDses sao Africanos",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Sao Tome e Principe",
+    "Resposta2": "Africa do Sul",
+    "Resposta3": "Guin\u00E9",
+    "Resposta4": "Nova Zelandia",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 57,
+    "Nome": "Federer \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenis",
+    "Resposta2": "Box",
+    "Resposta3": "Karate",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 58,
+    "Nome": "Ronaldo \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Futebolista",
+    "Resposta2": "Basquetebolista",
+    "Resposta3": "Golfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 59,
+    "Nome": "Onde joga o Messi?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Psg",
+    "Resposta2": "Porto",
+    "Resposta3": "Barcelona",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 60,
+    "Nome": "John John Florence pratica que desporto?",
+    "Assunto": 1,
+    "Nivel": 2,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Surf",
+    "Resposta2": "Box",
+    "Resposta3": "Futebol",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 61,
+    "Nome": "Em que lugar vivem mais cangurus que pessoas?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Nova Zelandia",
+    "Resposta3": "Brazil",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 62,
+    "Nome": "Djokovic \u00E9 um conhecido :",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenista",
+    "Resposta2": "Skater",
+    "Resposta3": "Surfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 63,
+    "Nome": "Quais destas cidades sao portuguesas?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Viana",
+    "Resposta2": "\u00C9vora",
+    "Resposta3": "Salamanca",
+    "Resposta4": "Porto",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 64,
+    "Nome": "Quais destes clubes de futebol sao Europeus?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Real Madrid",
+    "Resposta2": "Dortmund",
+    "Resposta3": "River",
+    "Resposta4": "Palmeiras",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 65,
+    "Nome": "Onde fica Guadalupe?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Continente americano",
+    "Resposta2": "Continente africano",
+    "Resposta3": "Continente europeu",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 66,
+    "Nome": "O Benfica \u00E9 vermelho?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 67,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 68,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 69,
+    "Nome": "A capital de Portugal \u00E9 o Porto?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 70,
+    "Nome": "Senhor dos Aneis \u00E9 um filme baseado num livro escrito por: ",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tolkien",
+    "Resposta2": "Tolstoi",
+    "Resposta3": "Orwell",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 71,
+    "Nome": "Alfred Hitchcock realizou Jaws?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 72,
+    "Nome": "Quais destes nomes sao de conhecidas atrizes",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Natalie Portman",
+    "Resposta2": "Keira Knightley",
+    "Resposta3": "Shakira",
+    "Resposta4": "Oprah",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 73,
+    "Nome": "Budapeste \u00E9 uma cidade na Hungria:",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 74,
+    "Nome": "Quais destas cidades ficam em Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Madrid",
+    "Resposta2": "Zaragoza",
+    "Resposta3": "Toulouse",
+    "Resposta4": "Corunha",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 75,
+    "Nome": "Onde fica a Su\u00E9cia?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Europa",
+    "Resposta2": "Africa",
+    "Resposta3": "America do Norte",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 76,
+    "Nome": "Estas cidades sao Suecas?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Malmo",
+    "Resposta2": "Estocolmo",
+    "Resposta3": "Gotemburgo",
+    "Resposta4": "Copenhaga",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 77,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 78,
+    "Nome": "Copenhaga fica na Dinamarca?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 79,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 80,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 81,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 82,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Entretenimento",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 83,
+    "Nome": "Qual \u00E9 a capital da Fran\u00E7a?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Lyon",
+    "Resposta2": "Paris",
+    "Resposta3": "Nice",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 84,
+    "Nome": "Onde fica Reykjavic?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Noruega",
+    "Resposta3": "Nova Zelandia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 85,
+    "Nome": "Portugal fica na Europa?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 86,
+    "Nome": "Quais destes pa\u00EDses sao Africanos",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Geografia",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Sao Tome e Principe",
+    "Resposta2": "Africa do Sul",
+    "Resposta3": "Guin\u00E9",
+    "Resposta4": "Nova Zelandia",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 87,
+    "Nome": "Federer \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tenis",
+    "Resposta2": "Box",
+    "Resposta3": "Karate",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 88,
+    "Nome": "Ronaldo \u00E9 um conhecido por que desporto?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Futebolista",
+    "Resposta2": "Basquetebolista",
+    "Resposta3": "Golfista",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 89,
+    "Nome": "Onde joga o Messi?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Psg",
+    "Resposta2": "Porto",
+    "Resposta3": "Barcelona",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 90,
+    "Nome": "John John Florence pratica que desporto?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "Desporto",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Surf",
+    "Resposta2": "Box",
+    "Resposta3": "Futebol",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 91,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 92,
+    "Nome": "Qual destes cantores fazia parte dos Beatles :",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "George Harrison",
+    "Resposta2": "Nick Cave",
+    "Resposta3": "David Gilmour",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 93,
+    "Nome": "Quais destas bandas sao portuguesas?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Xutos e Pontap\u00E9s",
+    "Resposta2": "Silence 4",
+    "Resposta3": "Pink Floyd",
+    "Resposta4": "Beatles",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 94,
+    "Nome": "Quais destes musicos sao Europeus?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Serge Gainsbourg",
+    "Resposta3": "Bruce Springteen",
+    "Resposta4": "Caetano Veloso",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 95,
+    "Nome": "Onde nasceu Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Inglaterra",
+    "Resposta3": "E.U.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 96,
+    "Nome": "O Jos\u00E9 Cid \u00E9 brasileiro?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 97,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 98,
+    "Nome": "Quais dos seguintes artistas sao musicos?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roger Federer",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 99,
+    "Nome": "David Bowie \u00E9 de Brixton?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 100,
+    "Nome": "Qual destes albuns pertence aos Pink Floyd: ",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animals",
+    "Resposta2": "White Album",
+    "Resposta3": "Love and Work",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 101,
+    "Nome": "Alfred Hitchcock realizou Jaws?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 102,
+    "Nome": "Quais destes nomes sao de conhecidas atrizes",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Natalie Portman",
+    "Resposta2": "Keira Knightley",
+    "Resposta3": "Shakira",
+    "Resposta4": "Oprah",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 103,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 104,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 105,
+    "Nome": "Onde foi filmado o filme Shining?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Inglaterra",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Portugal",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 106,
+    "Nome": "Qual a nacionalidade de Leonardo DiCaprio?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "E.U.A",
+    "Resposta2": "Australia",
+    "Resposta3": "Inglaterra",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 107,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 108,
+    "Nome": "Ingmar Bergman \u00E9 sueco?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 109,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 110,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 111,
+    "Nome": "Jos\u00E9 Saramago \u00E9 um escritor nascido em:",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 112,
+    "Nome": "The Shining \u00E9 um livro de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 113,
+    "Nome": "Qual destes \u00E9 um livro de Paolo Cognetti?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "As nove montanhas",
+    "Resposta2": "As oito montanhas",
+    "Resposta3": "As 10 montanhas",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 114,
+    "Nome": "Onde naceu Charles Dickens?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portsmouth",
+    "Resposta2": "Paris",
+    "Resposta3": "L.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 115,
+    "Nome": "Saramago ganhou um nobel com Ensaio sobre a Cegueira?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 116,
+    "Nome": "Quais destes sao aclamados escritores",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Charles Dickens",
+    "Resposta2": "Dostoievski",
+    "Resposta3": "George Orwell",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 117,
+    "Nome": "Qual destes livros foi escrito por George Orwell?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animal Farm",
+    "Resposta2": "David Copperfield",
+    "Resposta3": "Mulheres",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 118,
+    "Nome": "Qual destes livros foi escrito por Machado de Assis?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dom Casmurro",
+    "Resposta2": "Homens e Ratos",
+    "Resposta3": "A Leste do Para\u00EDso",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 119,
+    "Nome": "Qual destes livros foi escrito por Jane Austen?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Orgulho e Preconceito",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Jane Eyre",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 120,
+    "Nome": "JQual destes livros foi escrito por Charlotte Bronte?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Jane Eyre",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 121,
+    "Nome": "Alfred Hitchcock realizou Jaws?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 122,
+    "Nome": "Quais destes nomes sao de conhecidas atrizes",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Natalie Portman",
+    "Resposta2": "Keira Knightley",
+    "Resposta3": "Shakira",
+    "Resposta4": "Oprah",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 123,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 124,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 125,
+    "Nome": "Onde foi filmado o filme Shining?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Inglaterra",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Portugal",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 126,
+    "Nome": "Qual a nacionalidade de Leonardo DiCaprio?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "E.U.A",
+    "Resposta2": "Australia",
+    "Resposta3": "Inglaterra",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 127,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 128,
+    "Nome": "Ingmar Bergman \u00E9 sueco?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 129,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 130,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 131,
+    "Nome": "Jos\u00E9 Saramago \u00E9 um escritor nascido em:",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 132,
+    "Nome": "The Shining \u00E9 um livro de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 133,
+    "Nome": "Qual destes \u00E9 um livro de Paolo Cognetti?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "As nove montanhas",
+    "Resposta2": "As oito montanhas",
+    "Resposta3": "As 10 montanhas",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 134,
+    "Nome": "Onde naceu Charles Dickens?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portsmouth",
+    "Resposta2": "Paris",
+    "Resposta3": "L.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 135,
+    "Nome": "Saramago ganhou um nobel com Ensaio sobre a Cegueira?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 136,
+    "Nome": "Quais destes sao aclamados escritores",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Charles Dickens",
+    "Resposta2": "Dostoievski",
+    "Resposta3": "George Orwell",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 137,
+    "Nome": "Qual destes livros foi escrito por George Orwell?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animal Farm",
+    "Resposta2": "David Copperfield",
+    "Resposta3": "Mulheres",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 138,
+    "Nome": "Qual destes livros foi escrito por Machado de Assis?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dom Casmurro",
+    "Resposta2": "Homens e Ratos",
+    "Resposta3": "A Leste do Para\u00EDso",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 139,
+    "Nome": "Qual destes livros foi escrito por Jane Austen?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Orgulho e Preconceito",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Jane Eyre",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 140,
+    "Nome": "Qual destes livros foi escrito por Charlotte Bronte?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Jane Eyre",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 141,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 142,
+    "Nome": "Qual destes cantores fazia parte dos Beatles :",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "George Harrison",
+    "Resposta2": "Nick Cave",
+    "Resposta3": "David Gilmour",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 143,
+    "Nome": "Quais destas bandas sao portuguesas?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Xutos e Pontap\u00E9s",
+    "Resposta2": "Silence 4",
+    "Resposta3": "Pink Floyd",
+    "Resposta4": "Beatles",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 144,
+    "Nome": "Quais destes musicos sao Europeus?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Serge Gainsbourg",
+    "Resposta3": "Bruce Springteen",
+    "Resposta4": "Caetano Veloso",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 145,
+    "Nome": "Onde nasceu Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Inglaterra",
+    "Resposta3": "E.U.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 146,
+    "Nome": "O Jos\u00E9 Cid \u00E9 brasileiro?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 147,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 148,
+    "Nome": "Quais dos seguintes artistas sao musicos?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roger Federer",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 149,
+    "Nome": "David Bowie \u00E9 de Brixton?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 150,
+    "Nome": "Qual destes albuns pertence aos Pink Floyd: ",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animals",
+    "Resposta2": "White Album",
+    "Resposta3": "Love and Work",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 140,
+    "Nome": "Qual destes livros foi escrito por Charlotte Bronte?",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Jane Eyre",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 141,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 142,
+    "Nome": "Qual destes cantores fazia parte dos Beatles :",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "George Harrison",
+    "Resposta2": "Nick Cave",
+    "Resposta3": "David Gilmour",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 143,
+    "Nome": "Quais destas bandas sao portuguesas?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Xutos e Pontap\u00E9s",
+    "Resposta2": "Silence 4",
+    "Resposta3": "Pink Floyd",
+    "Resposta4": "Beatles",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 144,
+    "Nome": "Quais destes musicos sao Europeus?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Serge Gainsbourg",
+    "Resposta3": "Bruce Springteen",
+    "Resposta4": "Caetano Veloso",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 145,
+    "Nome": "Onde nasceu Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Inglaterra",
+    "Resposta3": "E.U.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 146,
+    "Nome": "O Jos\u00E9 Cid \u00E9 brasileiro?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 147,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 148,
+    "Nome": "Quais dos seguintes artistas sao musicos?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roger Federer",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 149,
+    "Nome": "David Bowie \u00E9 de Brixton?",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 150,
+    "Nome": "Qual destes albuns pertence aos Pink Floyd: ",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animals",
+    "Resposta2": "White Album",
+    "Resposta3": "Love and Work",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 151,
+    "Nome": "Alfred Hitchcock realizou Jaws?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 152,
+    "Nome": "Quais destes nomes sao de conhecidas atrizes",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Natalie Portman",
+    "Resposta2": "Keira Knightley",
+    "Resposta3": "Shakira",
+    "Resposta4": "Oprah",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 153,
+    "Nome": "Indiana Jones \u00E9 conhecido por usar um:",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Tapete voador",
+    "Resposta2": "Chicote",
+    "Resposta3": "Garraf\u00E3o",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 154,
+    "Nome": "The Shining \u00E9 um filme de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 155,
+    "Nome": "Onde foi filmado o filme Shining?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Inglaterra",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Portugal",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 156,
+    "Nome": "Qual a nacionalidade de Leonardo DiCaprio?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "E.U.A",
+    "Resposta2": "Australia",
+    "Resposta3": "Inglaterra",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 157,
+    "Nome": "Quais destes filmes s\u00E3o americanos?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Graduate",
+    "Resposta2": "Back to Future",
+    "Resposta3": "Blow Up",
+    "Resposta4": "Predator",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 158,
+    "Nome": "Ingmar Bergman \u00E9 sueco?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 159,
+    "Nome": "Que tipo de filme \u00E9 Rosemarys Baby?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 160,
+    "Nome": "Jurassic Park \u00E9 um filme sobre:",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Cinema",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dinossauros",
+    "Resposta2": "Girafas",
+    "Resposta3": "Robots",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 161,
+    "Nome": "Jos\u00E9 Saramago \u00E9 um escritor nascido em:",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 162,
+    "Nome": "The Shining \u00E9 um livro de que g\u00E9nero",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Com\u00E9dia",
+    "Resposta2": "Terror",
+    "Resposta3": "Drama",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 163,
+    "Nome": "Qual destes \u00E9 um livro de Paolo Cognetti?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "As nove montanhas",
+    "Resposta2": "As oito montanhas",
+    "Resposta3": "As 10 montanhas",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 164,
+    "Nome": "Onde naceu Charles Dickens?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portsmouth",
+    "Resposta2": "Paris",
+    "Resposta3": "L.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 165,
+    "Nome": "Saramago ganhou um nobel com Ensaio sobre a Cegueira?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 166,
+    "Nome": "Quais destes sao aclamados escritores",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Charles Dickens",
+    "Resposta2": "Dostoievski",
+    "Resposta3": "George Orwell",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 167,
+    "Nome": "Qual destes livros foi escrito por George Orwell?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Animal Farm",
+    "Resposta2": "David Copperfield",
+    "Resposta3": "Mulheres",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 168,
+    "Nome": "Qual destes livros foi escrito por Machado de Assis?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Dom Casmurro",
+    "Resposta2": "Homens e Ratos",
+    "Resposta3": "A Leste do Para\u00EDso",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 169,
+    "Nome": "Qual destes livros foi escrito por Jane Austen?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Orgulho e Preconceito",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Jane Eyre",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 170,
+    "Nome": "JQual destes livros foi escrito por Charlotte Bronte?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Jane Eyre",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 171,
+    "Nome": "Qual destes livros foi escrito por Charlotte Bronte?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Literatura",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Jane Eyre",
+    "Resposta2": "Monte dos Vendavais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 172,
+    "Nome": "Quais dos seguintes artistas/bandas j\u00E1 colaboraram com Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roxy Music",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 173,
+    "Nome": "Qual destes cantores fazia parte dos Beatles :",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "George Harrison",
+    "Resposta2": "Nick Cave",
+    "Resposta3": "David Gilmour",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 174,
+    "Nome": "Quais destas bandas sao portuguesas?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Xutos e Pontap\u00E9s",
+    "Resposta2": "Silence 4",
+    "Resposta3": "Pink Floyd",
+    "Resposta4": "Beatles",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 175,
+    "Nome": "Quais destes musicos sao Europeus?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Serge Gainsbourg",
+    "Resposta3": "Bruce Springteen",
+    "Resposta4": "Caetano Veloso",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 176,
+    "Nome": "Onde nasceu Nick Cave?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Australia",
+    "Resposta2": "Inglaterra",
+    "Resposta3": "E.U.A.",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 177,
+    "Nome": "O Jos\u00E9 Cid \u00E9 brasileiro?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 178,
+    "Nome": "Sigur Ros s\u00E3o oriundos de qual dos seguintes pa\u00EDses",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Islandia",
+    "Resposta2": "Dinamarca",
+    "Resposta3": "Noruega",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 179,
+    "Nome": "Quais dos seguintes artistas sao musicos?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "PJ Harvey",
+    "Resposta2": "Marianne Faithfull",
+    "Resposta3": "Roger Federer",
+    "Resposta4": "David Bowie",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 180,
+    "Nome": "David Bowie \u00E9 de Brixton?",
+    "Assunto": 2,
+    "Nivel": 3,
+    "Tag": "Musica",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 181,
+    "Nome": "O Porto equipa de azul?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 182,
+    "Nome": "O sporting equipa de que cores",
+    "Assunto": 2,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Verde",
+    "Resposta2": "Branco",
+    "Resposta3": "Azul",
+    "Resposta4": "Vermelho",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 183,
+    "Nome": "O Real Madrid \u00E9:",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Azul",
+    "Resposta2": "Branco",
+    "Resposta3": "Verde",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 184,
+    "Nome": "Onde nasceu Cristiano Ronaldo",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Viana ",
+    "Resposta2": "Madeira",
+    "Resposta3": "a\u00E7ores",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 185,
+    "Nome": "Onde nasceu Mourinho?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portugal",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Espanha",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 186,
+    "Nome": "Qual a nacionalidade de Messi?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Argentina",
+    "Resposta2": "Australiana",
+    "Resposta3": "Inglesa",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 187,
+    "Nome": "Quais destes jogadores s\u00E3o espanhois?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "De Gea",
+    "Resposta2": "Morata",
+    "Resposta3": "Messi",
+    "Resposta4": "Ronaldo",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 188,
+    "Nome": "Ibra \u00E9 sueco?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 189,
+    "Nome": "Onde joga o Bernardo Silva?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Manchester United",
+    "Resposta2": "Manchester City",
+    "Resposta3": "Chelsea",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 190,
+    "Nome": "Onde joga o Otavio:",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Porto",
+    "Resposta2": "Benfica",
+    "Resposta3": "Sporting",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 191,
+    "Nome": "Gastao Elias",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 192,
+    "Nome": "Onde nasceu Federer",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Fran\u00E7a",
+    "Resposta2": "Sui\u00E7a",
+    "Resposta3": "Italia",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 193,
+    "Nome": "Qual destes \u00E9 um tenista?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Ronaldo",
+    "Resposta2": "Federer",
+    "Resposta3": "Luis Silva",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 194,
+    "Nome": "Onde naceu Djokovic?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Servia",
+    "Resposta2": "Austria",
+    "Resposta3": "Bosnia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 195,
+    "Nome": "Uma bola de Tenis \u00E9 por norma verde?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 196,
+    "Nome": "Quais destes sao aclamados tenistas",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Agassi",
+    "Resposta2": "Federer",
+    "Resposta3": "Djokovic",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 197,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Estoril Open",
+    "Resposta2": "Lisboa Open",
+    "Resposta3": "WWE",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 198,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Wimbledon",
+    "Resposta2": "Lyon coupe",
+    "Resposta3": "Braga Open",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 199,
+    "Nome": "Em que cidade nasceu Federer?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Basileia",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 200,
+    "Nome": "Qual destes livros \u00E9 sobre Surf?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Barbarian Days",
+    "Resposta2": "Quinta dos Animais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 201,
+    "Nome": "Qual destes \u00E9 surfista?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Italo Ferreira",
+    "Resposta2": "CR7",
+    "Resposta3": "Messi",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 202,
+    "Nome": "Quais dos seguintes surfistas j\u00E1 foi campe\u00E3o mundial?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kelly Slater",
+    "Resposta2": "JJ Florence",
+    "Resposta3": "Nic Von Rupp",
+    "Resposta4": "CR7",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 203,
+    "Nome": "Qual destes locais pertence a uma famosa prova:",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Biarritz",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 204,
+    "Nome": "Quais destes surfistas sao portuguesas?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Frederico Morais",
+    "Resposta2": "Teresa Bonvalot",
+    "Resposta3": "Kepa Acero",
+    "Resposta4": "Miguel Blanco",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 205,
+    "Nome": "Quais destes surfistas sao Europeus?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Miguel Blanco",
+    "Resposta2": "Kepa Acero",
+    "Resposta3": "JJ Florence",
+    "Resposta4": "Medina",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 206,
+    "Nome": "Onde nasceu JJ Florence?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Hawai",
+    "Resposta2": "L.A:",
+    "Resposta3": "Monaco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 207,
+    "Nome": "O Medina \u00E9 brasileiro?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 208,
+    "Nome": "Quais \u00E9 um surfista americanos",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Carissa Moore",
+    "Resposta2": "Italo",
+    "Resposta3": "Miguel Blanco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 209,
+    "Nome": "Quais dos seguintes nomes sao de surfistas americanos?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kohole Andino",
+    "Resposta2": "Carissa Moore",
+    "Resposta3": "Slater",
+    "Resposta4": "Oscar Langbourne",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 210,
+    "Nome": "Miguel Blanco \u00E9 Portugues?",
+    "Assunto": 3,
+    "Nivel": 1,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 211,
+    "Nome": "O Porto equipa de azul?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 212,
+    "Nome": "O sporting equipa de que cores",
+    "Assunto": 2,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Verde",
+    "Resposta2": "Branco",
+    "Resposta3": "Azul",
+    "Resposta4": "Vermelho",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 213,
+    "Nome": "O Real Madrid \u00E9:",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Azul",
+    "Resposta2": "Branco",
+    "Resposta3": "Verde",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 214,
+    "Nome": "Onde nasceu Cristiano Ronaldo",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Viana ",
+    "Resposta2": "Madeira",
+    "Resposta3": "a\u00E7ores",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 215,
+    "Nome": "Onde nasceu Mourinho?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portugal",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Espanha",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 216,
+    "Nome": "Qual a nacionalidade de Messi?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Argentina",
+    "Resposta2": "Australiana",
+    "Resposta3": "Inglesa",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 217,
+    "Nome": "Quais destes jogadores s\u00E3o espanhois?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "De Gea",
+    "Resposta2": "Morata",
+    "Resposta3": "Messi",
+    "Resposta4": "Ronaldo",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 218,
+    "Nome": "Ibra \u00E9 sueco?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 219,
+    "Nome": "Onde joga o Bernardo Silva?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Manchester United",
+    "Resposta2": "Manchester City",
+    "Resposta3": "Chelsea",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 220,
+    "Nome": "Onde joga o Otavio:",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Porto",
+    "Resposta2": "Benfica",
+    "Resposta3": "Sporting",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 221,
+    "Nome": "Gastao Elias",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 222,
+    "Nome": "Onde nasceu Federer",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Fran\u00E7a",
+    "Resposta2": "Sui\u00E7a",
+    "Resposta3": "Italia",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 223,
+    "Nome": "Qual destes \u00E9 um tenista?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Ronaldo",
+    "Resposta2": "Federer",
+    "Resposta3": "Luis Silva",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 224,
+    "Nome": "Onde naceu Djokovic?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Servia",
+    "Resposta2": "Austria",
+    "Resposta3": "Bosnia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 225,
+    "Nome": "Uma bola de Tenis \u00E9 por norma verde?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 226,
+    "Nome": "Quais destes sao aclamados tenistas",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Agassi",
+    "Resposta2": "Federer",
+    "Resposta3": "Djokovic",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 227,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Estoril Open",
+    "Resposta2": "Lisboa Open",
+    "Resposta3": "WWE",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 228,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Wimbledon",
+    "Resposta2": "Lyon coupe",
+    "Resposta3": "Braga Open",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 229,
+    "Nome": "Em que cidade nasceu Federer?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Basileia",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 230,
+    "Nome": "Qual destes livros \u00E9 sobre Surf?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Barbarian Days",
+    "Resposta2": "Quinta dos Animais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 241,
+    "Nome": "Qual destes \u00E9 surfista?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Italo Ferreira",
+    "Resposta2": "CR7",
+    "Resposta3": "Messi",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 242,
+    "Nome": "Quais dos seguintes surfistas j\u00E1 foi campe\u00E3o mundial?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kelly Slater",
+    "Resposta2": "JJ Florence",
+    "Resposta3": "Nic Von Rupp",
+    "Resposta4": "CR7",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 243,
+    "Nome": "Qual destes locais pertence a uma famosa prova:",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Biarritz",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 244,
+    "Nome": "Quais destes surfistas sao portuguesas?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 1,
+    "Resposta1": "Frederico Morais",
+    "Resposta2": "Teresa Bonvalot",
+    "Resposta3": "Kepa Acero",
+    "Resposta4": "Miguel Blanco",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 245,
+    "Nome": "Quais destes surfistas sao Europeus?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Miguel Blanco",
+    "Resposta2": "Kepa Acero",
+    "Resposta3": "JJ Florence",
+    "Resposta4": "Medina",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 246,
+    "Nome": "Onde nasceu JJ Florence?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Hawai",
+    "Resposta2": "L.A:",
+    "Resposta3": "Monaco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 247,
+    "Nome": "O Medina \u00E9 brasileiro?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 248,
+    "Nome": "Quais \u00E9 um surfista americanos",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Carissa Moore",
+    "Resposta2": "Italo",
+    "Resposta3": "Miguel Blanco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 249,
+    "Nome": "Quais dos seguintes nomes sao de surfistas americanos?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kohole Andino",
+    "Resposta2": "Carissa Moore",
+    "Resposta3": "Slater",
+    "Resposta4": "Oscar Langbourne",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 250,
+    "Nome": "Miguel Blanco \u00E9 Portugues?",
+    "Assunto": 3,
+    "Nivel": 2,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 251,
+    "Nome": "O Porto equipa de azul?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 252,
+    "Nome": "O sporting equipa de que cores",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Verde",
+    "Resposta2": "Branco",
+    "Resposta3": "Azul",
+    "Resposta4": "Vermelho",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 253,
+    "Nome": "O Real Madrid \u00E9:",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Azul",
+    "Resposta2": "Branco",
+    "Resposta3": "Verde",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 254,
+    "Nome": "Onde nasceu Cristiano Ronaldo",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Viana ",
+    "Resposta2": "Madeira",
+    "Resposta3": "a\u00E7ores",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 255,
+    "Nome": "Onde nasceu Mourinho?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Portugal",
+    "Resposta2": "E.U.A",
+    "Resposta3": "Espanha",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 256,
+    "Nome": "Qual a nacionalidade de Messi?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Argentina",
+    "Resposta2": "Australiana",
+    "Resposta3": "Inglesa",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 257,
+    "Nome": "Quais destes jogadores s\u00E3o espanhois?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "De Gea",
+    "Resposta2": "Morata",
+    "Resposta3": "Messi",
+    "Resposta4": "Ronaldo",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 258,
+    "Nome": "Ibra \u00E9 sueco?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 259,
+    "Nome": "Onde joga o Bernardo Silva?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Manchester United",
+    "Resposta2": "Manchester City",
+    "Resposta3": "Chelsea",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 260,
+    "Nome": "Onde joga o Otavio:",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Futebol",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Porto",
+    "Resposta2": "Benfica",
+    "Resposta3": "Sporting",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 261,
+    "Nome": "Gastao Elias",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Espanha",
+    "Resposta2": "Portugal",
+    "Resposta3": "Fran\u00E7a",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 262,
+    "Nome": "Onde nasceu Federer",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Fran\u00E7a",
+    "Resposta2": "Sui\u00E7a",
+    "Resposta3": "Italia",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 263,
+    "Nome": "Qual destes \u00E9 um tenista?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Ronaldo",
+    "Resposta2": "Federer",
+    "Resposta3": "Luis Silva",
+    "Resposta4": null,
+    "Valid": [
+      2
+    ]
+  },
+  {
+    "Id": 264,
+    "Nome": "Onde naceu Djokovic?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Servia",
+    "Resposta2": "Austria",
+    "Resposta3": "Bosnia",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 265,
+    "Nome": "Uma bola de Tenis \u00E9 por norma verde?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 266,
+    "Nome": "Quais destes sao aclamados tenistas",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Agassi",
+    "Resposta2": "Federer",
+    "Resposta3": "Djokovic",
+    "Resposta4": "Donald Trump",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 267,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Estoril Open",
+    "Resposta2": "Lisboa Open",
+    "Resposta3": "WWE",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 268,
+    "Nome": "Qual destes \u00E9 um famoso torneio?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Wimbledon",
+    "Resposta2": "Lyon coupe",
+    "Resposta3": "Braga Open",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 269,
+    "Nome": "Em que cidade nasceu Federer?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Tenis",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Basileia",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 270,
+    "Nome": "Qual destes livros \u00E9 sobre Surf?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Barbarian Days",
+    "Resposta2": "Quinta dos Animais",
+    "Resposta3": "Orgulho e Preconceito",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 271,
+    "Nome": "Qual destes \u00E9 surfista?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Italo Ferreira",
+    "Resposta2": "CR7",
+    "Resposta3": "Messi",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 272,
+    "Nome": "Quais dos seguintes surfistas j\u00E1 foi campe\u00E3o mundial?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kelly Slater",
+    "Resposta2": "JJ Florence",
+    "Resposta3": "Nic Von Rupp",
+    "Resposta4": "CR7",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 273,
+    "Nome": "Qual destes locais pertence a uma famosa prova:",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Biarritz",
+    "Resposta2": "Viana",
+    "Resposta3": "Porto",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 274,
+    "Nome": "Quais destes surfistas sao portuguesas?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Frederico Morais",
+    "Resposta2": "Teresa Bonvalot",
+    "Resposta3": "Kepa Acero",
+    "Resposta4": "Miguel Blanco",
+    "Valid": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Id": 275,
+    "Nome": "Quais destes surfistas sao Europeus?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Miguel Blanco",
+    "Resposta2": "Kepa Acero",
+    "Resposta3": "JJ Florence",
+    "Resposta4": "Medina",
+    "Valid": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 276,
+    "Nome": "Onde nasceu JJ Florence?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Hawai",
+    "Resposta2": "L.A:",
+    "Resposta3": "Monaco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 277,
+    "Nome": "O Medina \u00E9 brasileiro?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "2",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 278,
+    "Nome": "Quais \u00E9 um surfista americanos",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 2,
+    "Onlyquest": 2,
+    "Resposta1": "Carissa Moore",
+    "Resposta2": "Italo",
+    "Resposta3": "Miguel Blanco",
+    "Resposta4": null,
+    "Valid": [
+      1
+    ]
+  },
+  {
+    "Id": 279,
+    "Nome": "Quais dos seguintes nomes sao de surfistas americanos?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "Kohole Andino",
+    "Resposta2": "Carissa Moore",
+    "Resposta3": "Slater",
+    "Resposta4": "Oscar Langbourne",
+    "Valid": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 280,
+    "Nome": "Miguel Blanco \u00E9 Portugues?",
+    "Assunto": 3,
+    "Nivel": 3,
+    "Tag": "Surf",
+    "Tipo": 3,
+    "Onlyquest": 2,
+    "Resposta1": "1",
+    "Resposta2": null,
+    "Resposta3": null,
+    "Resposta4": null,
+    "Valid": null
+  },
+  {
+    "Id": 282,
+    "Nome": "ajsndasjdasj\u00E7?",
+    "Assunto": 1,
+    "Nivel": 3,
+    "Tag": "futebol",
+    "Tipo": 1,
+    "Onlyquest": 2,
+    "Resposta1": "adsoaskd",
+    "Resposta2": "adsa\u00E7sdk",
+    "Resposta3": "adlpas",
+    "Resposta4": "adslasdk",
+    "Valid": [
+      1,
+      2
+    ]
+  }
+]

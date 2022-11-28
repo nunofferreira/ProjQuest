@@ -1,0 +1,221 @@
+﻿namespace Demos.TreasureHunt;
+
+public class Tank : Vehicle
+{
+    public Tank() : base(ConsoleColor.DarkGreen, "T", "Tank")
+    {
+    }
+    public override void MoveNorth()
+    {
+        var destination = new Coordinate(Coordinates.Row - 1, Coordinates.Column);
+        Move(destination);
+    }
+    public override void MoveSouth()
+    {
+        var destination = new Coordinate(Coordinates.Row + 1, Coordinates.Column);
+        Move(destination);
+    }
+
+    public override void MoveEast()
+    {
+        var destination = new Coordinate(Coordinates.Row, Coordinates.Column + 1);
+        Move(destination);
+    }
+
+    public override void MoveWest()
+    {
+        var destination = new Coordinate(Coordinates.Row, Coordinates.Column - 1);
+        Move(destination);
+    }
+
+    private void Move(Coordinate destination)
+    {
+        var elementDest = Forest.GetElement(destination);
+
+        switch (elementDest)
+        {
+            case Treasure:
+                Forest.LaunchEventFoundTreasure(this);
+                break;
+            case Vehicle:
+            case null:
+                Forest.MoveElement(Coordinates, destination);
+                break;
+        }
+    }
+ 
+}
+
+
+
+
+
+//static void randomMovement(Forest forest)
+//{
+//    Random randMove = new Random();
+//    int x = 1;
+//    int y = 1;
+//    Console.CursorLeft = x;
+//    Console.CursorTop = y;
+
+
+
+//    while (true)
+//    {
+//        int[,] forest1 = new int[x, y];
+
+//        int lin = 10;
+//        int col = 20;
+//        int[,] matrix = new int[lin, col];
+
+
+//        int irandom = randMove.Next(1);
+//        if (irandom == 0 && matrix[y, x - 1] == 0)
+//        {
+//            x--;
+//            Scooter.PrintMove(forest);
+//            break;
+//        }
+//        else if (irandom == 1 && matrix[y, x + 1] == 0)
+//        {
+//            x++;
+//            Scooter.PrintMove(forest);
+//            break;
+//        }
+//        else if (irandom == 2 && matrix[y - 1, x] == 0)
+//        {
+//            y--;
+//            Scooter.PrintMove(forest);
+//            break;
+//        }
+//        else if (matrix[y + 1, x] == 0)
+//        {
+//            y++;
+//            Scooter.PrintMove(forest);
+//            break;
+//        }
+//    }
+//    Thread.Sleep(1000);
+//    randomMovement(forest);
+//}
+
+//private static void Write(int x, int y, char ch)
+//{
+//    Console.SetCursorPosition(2 * x + 1, y + 1);
+//    if (ch == Character)
+//    {
+//        Console.Write('╠'); Console.Write('╣');
+//    }
+//    else
+//    {
+//        Console.Write(ch); Console.Write(ch);
+//    }
+//}
+
+//private static void DrawMap(char[,] map)
+//{
+//    for (int x = 0; x < MapWidth; x++)
+//    {
+//        for (int y = 0; y < MapHeight; y++)
+//        {
+//            Write(x, y, map[x, y]);
+//        }
+//    }
+//}
+
+//private static char[,] GenerateMap()
+//{
+//    var map = new char[MapWidth, MapHeight];
+
+//    for (int i = 0; i < MapWidth; i++)
+//    {
+//        map[i, 0] = Wall;
+//    }
+//    for (int i = 0; i < MapWidth; i++)
+//    {
+//        map[i, MapHeight - 1] = Wall;
+//    }
+//    for (int i = 0; i < MapHeight; i++)
+//    {
+//        map[0, i] = Wall;
+//    }
+//    for (int i = 0; i < MapHeight; i++)
+//    {
+//        map[MapWidth - 1, i] = Wall;
+//    }
+
+//    // Add some inside wall
+//    for (int i = 8; i < MapHeight - 5; i++)
+//    {
+//        map[12, i] = Wall;
+//    }
+
+//    return map;
+//}
+
+//const int MapWidth = 20;
+//const int MapHeight = 20;
+//const char Wall = '█';
+//const char Character = 'H';
+
+//static void Main(string[] args)
+//{
+//    int xCursor = 5, yCursor = 5;
+//    int xLastCollision = -1, yLastCollision = -1;
+//    bool isGameOver = false;
+
+//    Console.Clear();
+//    Console.CursorVisible = false; // Make the default console cursor invisible
+
+//    char[,] map = GenerateMap();
+//    DrawMap(map);
+
+//    // Set inital cursor position
+//    Console.ForegroundColor = ConsoleColor.Yellow;
+//    Write(xCursor, yCursor, Character);
+//    do
+//    {
+//        ConsoleKeyInfo consoleKey = Console.ReadKey(true);
+
+//        // Clear old cursor position
+//        Write(xCursor, yCursor, ' ');
+
+//        int oldX = xCursor, oldY = yCursor;
+//        switch (consoleKey.Key) // Movement of Character
+//        {
+//            case ConsoleKey.UpArrow:
+//                yCursor--;
+//                break;
+//            case ConsoleKey.DownArrow:
+//                yCursor++;
+//                break;
+//            case ConsoleKey.LeftArrow:
+//                xCursor--;
+//                break;
+//            case ConsoleKey.RightArrow:
+//                xCursor++;
+//                break;
+//            case ConsoleKey.Escape:
+//                isGameOver = true;
+//                break;
+//        }
+//        //Detect collisions with walls
+//        if (map[xCursor, yCursor] == Wall)
+//        { // We hit the wall, restore old position
+//            if (xCursor != xLastCollision && yCursor != yLastCollision)
+//            {
+//                Console.Beep(800, 100);
+//                xLastCollision = xCursor;
+//                yLastCollision = yCursor;
+//            }
+//            xCursor = oldX;
+//            yCursor = oldY;
+//        }
+//        else
+//        {
+//            xLastCollision = -1;
+//            yLastCollision = -1;
+//        }
+//        Write(xCursor, yCursor, Character);
+//    } while (!isGameOver);
+//}

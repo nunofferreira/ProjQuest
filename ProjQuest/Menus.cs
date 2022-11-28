@@ -81,8 +81,6 @@ public static class Menus
                     break;
                 case "5":
                     return;
-                default:
-                    return;
             }
         }
     }
@@ -102,7 +100,7 @@ public static class Menus
         1) Questionnaire
         2) Exam
         3) View all completed Exams
-        4) View Questionnaire scores
+        4) View all Questionnaire scores
         5) Exit";
             Console.WriteLine(menu_3);
             switch (Console.ReadLine())
@@ -111,16 +109,7 @@ public static class Menus
                     student.DoQuestionnaire(dataBase);
                     break;
                 case "2":
-                    if (student.HasApproval)
-                    {
-                        student.DoExam(dataBase);
-                    }
-                    else
-                    {
-                        Console.Clear();
-                        Console.Write("You have to get approval in the questionnaire first!");
-                        Console.ReadLine();
-                    }
+                    student.DoExam(dataBase);
                     break;
                 case "3":
                     student.PrintExamsDone(dataBase);
@@ -129,8 +118,6 @@ public static class Menus
                     student.PrintQuestScore(dataBase);
                     break;
                 case "5":
-                    return;
-                default:
                     return;
             }
         }

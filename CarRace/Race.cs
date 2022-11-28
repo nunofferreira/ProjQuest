@@ -1,15 +1,15 @@
-﻿using CarRacing;
+﻿using CarRace.Vehicles;
 
 public class Race
 {
     public static void StartRace()
     {
-        Console.WriteLine("Quantos carros:");
-        int numCars = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Quantos veículos:");
+        int numVehic = Convert.ToInt32(Console.ReadLine());
 
-        var cars = CarDealer.GetCars(numCars);
+        var vehicles = CarDealer.GetCars(numVehic);
 
-        Tracks track = new Tracks("Portimão", 100);
+        Track track = new Track(100,);
 
         Car winner = null;
 
@@ -19,10 +19,10 @@ public class Race
 
             track.PrintTrack();
 
-            foreach (Car car in cars)
+            foreach (Vehicle vehicle in vehicles)
             {
-                car.Mover();
-                car.Print();
+                vehicle.Mover();
+                vehicle.Print();
                 Console.WriteLine();
             }
 
@@ -35,15 +35,7 @@ public class Race
 
         Console.WriteLine(" O vencedor é {0}, com {1}Kms", winner.Marca, winner.Kms);
 
-        Car GetWinner()
-        {
-            foreach (var car in cars)
-            {
-                if (car.Kms >= track.Kms)
-                    return car;
-            }
-            return null;
-        } 
+       
     }
 }
 

@@ -1,0 +1,15 @@
+C:\Users\nfsf8\source\repos\TreasureHunt\bin\Release\net6.0\TreasureHunt.exe
+C:\Users\nfsf8\source\repos\TreasureHunt\bin\Release\net6.0\TreasureHunt.deps.json
+C:\Users\nfsf8\source\repos\TreasureHunt\bin\Release\net6.0\TreasureHunt.runtimeconfig.json
+C:\Users\nfsf8\source\repos\TreasureHunt\bin\Release\net6.0\TreasureHunt.dll
+C:\Users\nfsf8\source\repos\TreasureHunt\bin\Release\net6.0\TreasureHunt.pdb
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.csproj.AssemblyReference.cache
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.AssemblyInfoInputs.cache
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.AssemblyInfo.cs
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.csproj.CoreCompileInputs.cache
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.dll
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\refint\TreasureHunt.dll
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.pdb
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\TreasureHunt.genruntimeconfig.cache
+C:\Users\nfsf8\source\repos\TreasureHunt\obj\Release\net6.0\ref\TreasureHunt.dll

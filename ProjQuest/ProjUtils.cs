@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-
 namespace ProjQuest;
 
 public class ProjUtils

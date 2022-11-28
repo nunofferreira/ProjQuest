@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FV2/uHRzVR2iKEB7FoNKOpyxVLsWgFaPiQkRLbG3i1cXuRbJbPyNH+kn5hqziJa3x17ap4s2KGpbg/Ca44ODNw==",
+  "dgSpecHash": "K6hGjOF6HjU9y1LkEMLwVo49dpvCDUiILiGV7CL+hVY9AW8J2NSF/lZvR8Heoll3opnJ5hQaAh9RLWih9HkY5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\nfsf8\\source\\repos\\Demos.Utils\\Demos.Utils.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nfsf8\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\nfsf8\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }

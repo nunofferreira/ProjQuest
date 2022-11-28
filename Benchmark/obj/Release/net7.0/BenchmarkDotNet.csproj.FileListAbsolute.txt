@@ -1,0 +1,5 @@
+C:\Users\nfsf8\source\repos\Benchmark\obj\Release\net7.0\BenchmarkDotNet.csproj.AssemblyReference.cache
+C:\Users\nfsf8\source\repos\Benchmark\obj\Release\net7.0\BenchmarkDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfsf8\source\repos\Benchmark\obj\Release\net7.0\BenchmarkDotNet.AssemblyInfoInputs.cache
+C:\Users\nfsf8\source\repos\Benchmark\obj\Release\net7.0\BenchmarkDotNet.AssemblyInfo.cs
+C:\Users\nfsf8\source\repos\Benchmark\obj\Release\net7.0\BenchmarkDotNet.csproj.CoreCompileInputs.cache
