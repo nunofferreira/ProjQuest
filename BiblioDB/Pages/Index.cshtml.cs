@@ -1,4 +1,6 @@
-﻿namespace BiblioDB.Pages;
+﻿using BiblioDB.Data.Repositories;
+
+namespace BiblioDB.Pages;
 
 public class IndexModel : PageModel
 {
@@ -18,5 +20,5 @@ public class IndexModel : PageModel
     {
         if (_ctx.Books != null)
             BookList = await _ctx.Books.ToListAsync();
-    }
+    }       
 }

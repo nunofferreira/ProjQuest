@@ -13,6 +13,7 @@ builder.Services.AddRazorPages();
 #region
 
 //builder.Services.AddScoped<BooksModel>();
+builder.Services.AddScoped<BookRepository>();
 
 #endregion
 
@@ -38,5 +39,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
 
 app.Run();

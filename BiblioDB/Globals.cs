@@ -12,3 +12,5 @@ global using System.Linq;
 global using System.Threading.Tasks;
 global using System;
 global using System.Security.Claims;
+global using BiblioDB.Pages.Books;
+global using BiblioDB.Data.Repositories;

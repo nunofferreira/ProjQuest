@@ -12,20 +12,20 @@ public class CreateModel : PageModel
 
     public IActionResult OnGet()
     {
-    ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
+        ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
         return Page();
     }
 
     [BindProperty]
     public Book Book { get; set; }
-    
+
 
     // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
     public async Task<IActionResult> OnPostAsync()
     {
         Book.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-      if (!ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
             return Page();
         }
@@ -34,5 +34,7 @@ public class CreateModel : PageModel
         await _context.SaveChangesAsync();
 
         return RedirectToPage("./Index");
+
+        
     }
 }
