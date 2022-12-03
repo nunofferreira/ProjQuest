@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7bak4F0SUfSZc7s/IwPv152r+KwEMZZMlw3JshVXEOUNsRhlaJgJy0iQmknFRN1Ptk79U0zWIPSnyLc/tUNgug==",
+  "dgSpecHash": "3+C0JUjHPzHsLqJryLiDTssCw6/weWOe5Z8pfeF4nnIIqq5h2Inpo6Oa3FqwgW9zZUKQ4L2Ef9uICwRSvYdc3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\nfsf8\\source\\repos\\BiblioDB\\BiblioDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nfsf8\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nfsf8\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\nfsf8\\.nuget\\packages\\fluentassertions\\6.0.0\\fluentassertions.6.0.0.nupkg.sha512",
+    "C:\\Users\\nfsf8\\.nuget\\packages\\fluentassertions.json\\6.1.0\\fluentassertions.json.6.1.0.nupkg.sha512",
     "C:\\Users\\nfsf8\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nfsf8\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\nfsf8\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

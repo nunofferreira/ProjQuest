@@ -279,3 +279,5 @@ C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\runtimes\unix\lib\net6.0\S
 C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\FluentAssertions.dll
+C:\Users\nfsf8\source\repos\BiblioDB\bin\Debug\net7.0\FluentAssertions.Json.dll
