@@ -1,6 +1,4 @@
-﻿using BiblioDB.Data.Repositories;
-
-namespace BiblioDB.Pages.Books;
+﻿namespace BiblioDB.Pages.Books;
 
 [Authorize]
 public class IndexModel : PageModel
